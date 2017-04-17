@@ -5756,13 +5756,13 @@
 					<attvalue id="2" value="3"/>
 				</attvalues>
 			</node>
-			<node id="576" label="ﾃ閣res Vivants">
+			<node id="576" label="ﾃ?tres Vivants">
 				<viz:color b="0" g="255" r="153"/>
 				<viz:position x="138.45549" y="-163.0018" z="0.0"/>
 				<viz:size value="3.7195435"/>
 				<attvalues>
 					<attvalue id="0" value="n576"/>
-					<attvalue id="1" value="ﾃ閣res Vivants"/>
+					<attvalue id="1" value="ﾃ?tres Vivants"/>
 					<attvalue id="2" value="11"/>
 				</attvalues>
 			</node>
@@ -9992,13 +9992,13 @@
 					<attvalue id="2" value="2"/>
 				</attvalues>
 			</node>
-			<node id="1000" label="ﾃ四e De Sakhaline">
+			<node id="1000" label="ﾃ?le De Sakhaline">
 				<viz:color b="51" g="51" r="255"/>
 				<viz:position x="-45.902386" y="-131.20715" z="0.0"/>
 				<viz:size value="3.6082125"/>
 				<attvalues>
 					<attvalue id="0" value="n1000"/>
-					<attvalue id="1" value="ﾃ四e De Sakhaline"/>
+					<attvalue id="1" value="ﾃ?le De Sakhaline"/>
 					<attvalue id="2" value="4"/>
 				</attvalues>
 			</node>
@@ -11672,23 +11672,23 @@
 					<attvalue id="2" value="2"/>
 				</attvalues>
 			</node>
-			<node id="1173" label="ﾃ四e Aux Ours">
+			<node id="1173" label="ﾃ?le Aux Ours">
 				<viz:color b="0" g="255" r="153"/>
 				<viz:position x="-23.714111" y="-30.37403" z="0.0"/>
 				<viz:size value="3.6428227"/>
 				<attvalues>
 					<attvalue id="0" value="n1173"/>
-					<attvalue id="1" value="ﾃ四e Aux Ours"/>
+					<attvalue id="1" value="ﾃ?le Aux Ours"/>
 					<attvalue id="2" value="1"/>
 				</attvalues>
 			</node>
-			<node id="1174" label="ﾃ四e De Gotland">
+			<node id="1174" label="ﾃ?le De Gotland">
 				<viz:color b="51" g="51" r="255"/>
 				<viz:position x="-91.91884" y="-108.08819" z="0.0"/>
 				<viz:size value="3.6082125"/>
 				<attvalues>
 					<attvalue id="0" value="n1174"/>
-					<attvalue id="1" value="ﾃ四e De Gotland"/>
+					<attvalue id="1" value="ﾃ?le De Gotland"/>
 					<attvalue id="2" value="3"/>
 				</attvalues>
 			</node>
@@ -11702,13 +11702,13 @@
 					<attvalue id="2" value="3"/>
 				</attvalues>
 			</node>
-			<node id="1176" label="ﾃ四e Hans">
+			<node id="1176" label="ﾃ?le Hans">
 				<viz:color b="51" g="51" r="255"/>
 				<viz:position x="-11.876183" y="-47.796837" z="0.0"/>
 				<viz:size value="3.6144404"/>
 				<attvalues>
 					<attvalue id="0" value="n1176"/>
-					<attvalue id="1" value="ﾃ四e Hans"/>
+					<attvalue id="1" value="ﾃ?le Hans"/>
 					<attvalue id="2" value="1"/>
 				</attvalues>
 			</node>
@@ -11722,13 +11722,13 @@
 					<attvalue id="2" value="4"/>
 				</attvalues>
 			</node>
-			<node id="1178" label="ﾃ四e Melville">
+			<node id="1178" label="ﾃ?le Melville">
 				<viz:color b="204" g="204" r="0"/>
 				<viz:position x="-50.841915" y="6.3638916" z="0.0"/>
 				<viz:size value="3.6144404"/>
 				<attvalues>
 					<attvalue id="0" value="n1178"/>
-					<attvalue id="1" value="ﾃ四e Melville"/>
+					<attvalue id="1" value="ﾃ?le Melville"/>
 					<attvalue id="2" value="2"/>
 				</attvalues>
 			</node>
@@ -15316,13 +15316,13 @@
 					<attvalue id="2" value="1"/>
 				</attvalues>
 			</node>
-			<node id="1540" label="Presqu'ﾃ四e De Kola,1">
+			<node id="1540" label="Presqu'ﾃ?le De Kola,1">
 				<viz:color b="51" g="51" r="255"/>
 				<viz:position x="-42.314877" y="-78.47489" z="0.0"/>
 				<viz:size value="3.6428227"/>
 				<attvalues>
 					<attvalue id="0" value="n1540"/>
-					<attvalue id="1" value="Presqu'ﾃ四e De Kola,1"/>
+					<attvalue id="1" value="Presqu'ﾃ?le De Kola,1"/>
 				</attvalues>
 			</node>
 			<node id="1541" label="Systeme Meteo">
