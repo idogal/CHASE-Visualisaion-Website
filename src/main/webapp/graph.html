@@ -23,12 +23,20 @@
                     right: 0;
                     position: absolute;
                 }
-                #control-pane {
-                    top: 10px;
-                    /*bottom: 10px;*/
-                    right: 10px;
+                #credits-box{
+                    background-color: rgb(249, 247, 237);
+                    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    bottom: 10px;
+                    right: 30px;
+                    width: 270px;
                     position: absolute;
-                    width: 230px;
+                    padding: 5px
+                }
+                #control-pane {
+                    top: 20px;
+                    right: 30px;
+                    position: absolute;
+                    width: 270px;
                     background-color: rgb(249, 247, 237);
                     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
                 }
@@ -42,7 +50,7 @@
                     width: 100%;
                     margin: 0;
                     padding: 12px 0 0 0;
-                    border-bottom: 1px solid #aac789;
+                    border-bottom: 1px solid #9370DB;
                     background: transparent;
                 }
                 h2, h3, h4 {
@@ -52,8 +60,11 @@
                 .green {
                     color: #437356;
                 }
+                .purple {
+                    color: #9370DB
+                }
                 h2.underline {
-                    color: #437356;
+                    color: #9370DB;
                     background: #f4f0e4;
                     margin: 0;
                     border-radius: 2px;
@@ -70,12 +81,24 @@
                 }
             </style>
             <div id="graph-container">
-                <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-scene" width="2294px" height="1880px"></canvas>
+                <!-- canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-scene" width="2294px" height="1880px"></canvas>
                 <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-labels" width="1147px" height="940px"></canvas>
-                <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-mouse" width="1147px" height="940px"></canvas>
+                <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-mouse" width="1147px" height="940px"></canvas-->
+            </div>
+            <div id="credits-box">
+                2017
+               <br>
+                Powered by: <a href="http://sigmajs.org/">sigma.js</a>
+               <br>
+                Network parsed by: <a href="http://www.gephi.org/">Gephi</a>
             </div>
             <div id="control-pane">
-                <h2 class="underline">filters</h2>
+                <h2 class="underline">The CHASE Authors Community Graph</h2>
+                <div style="font-size:12px">
+                    Click on a node to highlight it's neighbouring nodes. Click on the empty stage area to get back to the default view.
+                    <br><br>
+                    Graph was derived by the <b>Authors Bibliographical Coupling</b> algorithm.
+                </div>
                 <div>
                     <h3>Author name</h3>
                     <input id="authorName" value="">                    
@@ -95,7 +118,7 @@
                 </div>
                 <span class="line"></span>
                 <div>
-                    <button id="export-btn">Export</button>
+                    <button id="export-btn">Export to SVG</button>
                 </div>
                 <div id="dump" class="hidden"></div>
             </div>
@@ -118,6 +141,7 @@
                     return document.querySelectorAll(selectors);
                 },
 
+                /*
                 removeClass: function (selectors, cssClass) {
                     var nodes = document.querySelectorAll(selectors);
                     var l = nodes.length;
@@ -138,7 +162,7 @@
                             el.className += ' ' + cssClass;
                         }
                     }
-                },
+                },*/
 
                 show: function (selectors) {
                     this.removeClass(selectors, 'hidden');
@@ -164,9 +188,7 @@
                     }
                 }
             };
-
-
-
+            
             // Add a method to the graph model that returns an
             // object with every neighbors of a node inside:
             sigma.classes.graph.addMethod('neighbors', function (nodeId) {
@@ -214,13 +236,24 @@
                     utils.hide('#dump');
                 });
             }
-
+            
             sigma.parsers.gexf(
                     'data/abc.gexf',
                     {
-                        container: 'graph-container'
+                        renderer: {
+                          container: 'graph-container',
+                          type: 'canvas'
+                        },
+                        settings: {
+                          edgeLabelSize: 'proportional',
+                          minArrowSize: '7',
+                          defaultEdgeType: 'curvedArrow',
+                          hoverFontStyle: 'bold',
+                          labelThreshold: 4,
+                          defaultLabelSize: 14
+                        }
                     },
-                    function (s) {
+                    function (s) {        
                         filter = new sigma.plugins.filter(s);
                         updatePane(s.graph, filter);     
                         
@@ -256,9 +289,8 @@
                         
                         s.bind('clickStage', function () {
                             resetGraph();
-                        });                        
-
-
+                        });
+                        
                         function applyMinDegreeFilter(e) {
                             var v = e.target.value;
                             utils.$('min-degree-val').textContent = v;
@@ -273,7 +305,7 @@
 
                         function highlightNeighbours(e, nodeId) {
                             var toKeep = s.graph.neighbors(nodeId);
-                            if (e.type == "clickNode")
+                            if (e.type === "clickNode")
                                 toKeep[nodeId] = e.data.node;
 
                             s.graph.nodes().forEach(function (n) {
@@ -349,14 +381,14 @@
                         }
 
                         function exportGraph () {
-                          console.log('exporting...');
-                          var output = s.toSVG(
+                            console.log('exporting...');
+                            var output = s.toSVG(
                             {   download: true
                               , filename: 'CHASE_Authors_BC_Graph.svg'
                               , size: 1000
                               , labels: true
                             });
-                          // console.log(output);
+                            console.log(output);
                         };
 
                         utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
