@@ -90,25 +90,6 @@ function updatePane(graph, filter) {
     // min degree
     utils.$('min-degree').max = maxDegree;
     utils.$('max-degree-value').textContent = maxDegree;
-
-    /*
-     // node category
-     var nodecategoryElt = utils.$('node-category');
-     Object.keys(categories).forEach(function (c) {
-     var optionElt = document.createElement("option");
-     optionElt.text = c;
-     nodecategoryElt.add(optionElt);
-     });*/
-
-    // reset button
-    utils.$('reset-btn').addEventListener("click", function (e) {
-        utils.$('min-degree').value = 0;
-        utils.$('min-degree-val').textContent = '0';
-        //utils.$('node-category').selectedIndex = 0;
-        filter.undo().apply();
-        utils.$('dump').textContent = '';
-        utils.hide('#dump');
-    });
 }
 
 sigma.parsers.gexf(
@@ -158,12 +139,19 @@ sigma.parsers.gexf(
 
             s.bind('clickNode', function (e) {
                 var nodeId = e.data.node.id;
+                var nodeLabel = e.data.node.label;
+                var authorNameElement = document.getElementById("authorName");
+                authorNameElement.value = nodeLabel;
+                
                 highlightNeighbours(e, nodeId);
+                
+                var event = new Event('input');
+                authorNameElement.dispatchEvent(event);
             });
 
-            s.bind('clickStage', function () {
-                resetGraph();
-            });
+//            s.bind('clickStage', function () {
+//                resetGraph();
+//            });
 
             function applyMinDegreeFilter(e) {
                 var v = e.target.value;
@@ -237,7 +225,8 @@ sigma.parsers.gexf(
             }
 
             function resetAuthorFilter() {
-                //document.getElementsByName("authorName").value = "";
+                var authorNameElement = document.getElementById("authorName");
+                authorNameElement.value = "";
                 resetGraph();
             }
 
@@ -271,5 +260,16 @@ sigma.parsers.gexf(
             utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);
             utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
             utils.$('export-btn').addEventListener("click", exportGraph);
+            utils.$('authorName').addEventListener("input", filterByAuthor);
+            utils.$('authorName').addEventListener("change", filterByAuthor);
+            // reset button
+            utils.$('reset-btn').addEventListener("click", function (e) {
+                utils.$('min-degree').value = 0;
+                utils.$('min-degree-val').textContent = '0';
+                //utils.$('node-category').selectedIndex = 0;
+                filter.undo().apply();
+                utils.$('dump').textContent = '';
+                utils.hide('#dump');
+            });            
         }
 );
