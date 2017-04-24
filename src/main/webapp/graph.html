@@ -28,17 +28,30 @@
                     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
                     bottom: 10px;
                     right: 30px;
-                    width: 270px;
+                    width: 15%;
                     position: absolute;
-                    padding: 5px
+                    padding: 5px;                    
                 }
+                #details-pane {
+                    top: 20px;
+                    left: 30px;
+                    position: absolute;
+                    width: 17%;
+                    padding: 5px;
+                    background-color: rgb(249, 247, 237);
+                    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    max-height: 90%;
+                    overflow: auto;
+                }                
                 #control-pane {
                     top: 20px;
                     right: 30px;
                     position: absolute;
-                    width: 270px;
+                    width: 15%;
                     background-color: rgb(249, 247, 237);
                     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    max-height: 60%;
+                    overflow: auto;
                 }
                 #control-pane > div {
                     margin: 10px;
@@ -49,7 +62,7 @@
                     display: block;
                     width: 100%;
                     margin: 0;
-                    padding: 12px 0 0 0;
+                    padding: 8px 0 0 0;
                     border-bottom: 1px solid #9370DB;
                     background: transparent;
                 }
@@ -68,7 +81,7 @@
                     background: #f4f0e4;
                     margin: 0;
                     border-radius: 2px;
-                    padding: 8px 12px;
+                    padding: 6px 6px;
                     font-weight: 700;
                 }
                 .hidden {
@@ -79,12 +92,16 @@
                 input[type=range] {
                     width: 160px;
                 }
-            </style>
-            <div id="graph-container">
+            </style>            
+            <div id="graph-container">              
                 <!--<canvas style="position: absolute; width: 700px; height: 700px;" class="sigma-scene" width=700 height=700></canvas>-->
 <!--                <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-labels" width="1147px" height="940px"></canvas>
                 <canvas style="position: absolute; width: 1147px; height: 940px;" class="sigma-mouse" width="1147px" height="940px"></canvas>-->
             </div>
+            <div hidden="true" id="details-pane">
+                    <h3>Publications</h3>
+                    <p id="authors-details-paragraph"></p>            
+            </div>              
             <div id="credits-box">
                 2017
                <br>
@@ -94,10 +111,17 @@
             </div>
             <div id="control-pane">
                 <h2 class="underline">The CHASE Authors Community Network</h2>
-                <div style="font-size:12px">
-                    Click on a node to highlight it's neighbouring nodes. Click on the empty stage area to get back to the default view.
-                    <br><br>
-                    Network was derived by the <b>Authors Bibliographical Coupling</b> algorithm.
+                <div>
+                    <p style="font-size:12px;">
+                        Click on a node to highlight it's neighbouring nodes. Click on the empty stage area to get back to the default view.
+                        <br>
+                        Network was derived by the <b>Authors Bibliographical Coupling</b> algorithm.                        
+                    </p>
+                    <h3>Network type</h3>
+                    <form>
+                        <input type="radio" name="networktype" value="simple" onclick="showGraph('data/simple.gexf')" checked> Simple network<br>
+                        <input type="radio" name="networktype" value="bc" onclick="showGraph('data/abc.gexf')"> Bibliographical Coupling network<br>
+                    </form>
                 </div>
                 <div>
                     <h3>Author name</h3>
@@ -109,7 +133,9 @@
                     </div>                    
                 </div>
                 <div>
-                    <h3>min degree <span id="min-degree-val">0</span></h3>
+                    <h3>min degree 
+                        <span id="min-degree-val">0</span>
+                    </h3>
                     0 <input id="min-degree" min="0" max="34" value="0" type="range"> <span id="max-degree-value">34</span>
                     <div>
                         <br>

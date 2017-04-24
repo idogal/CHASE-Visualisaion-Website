@@ -2,10 +2,10 @@ var viz;
 
 window.onload = function () {
     var vizDiv = document.getElementById('myViz');
-    var vizURL = "https://public.tableau.com/views/CHASE_2/CHASEstory?:embed=y&:display_count=yes";
+    var vizURL = "https://public.tableau.com/views/CHASE_Analysis/AuthorsList?:embed=y&:display_count=yes";
     var options = {
-        width: '760px',
-        height: '760px'
+        width: '45%',
+        height: '900px'
     };
 
     viz = new tableau.Viz(vizDiv, vizURL, options);

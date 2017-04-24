@@ -20,6 +20,10 @@ and open the template in the editor.
         <script src="tableauViz.js" type="application/javascript"></script>
         
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+
     </head>
     <body>
         <div id="container">
@@ -30,20 +34,35 @@ and open the template in the editor.
                     font-family: Lato, sans-serif;
                 }
                 #graph-container {
-                    top: 15px;
+/*                    top: 15px;
                     right: 240px;
                     height: 760px;
                     width: 600px;
+                    min-width: 300px;
                     position: absolute;
-                    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    box-shadow: 0 2px 6px rgba(0,0,0,0.3);*/
+    float:              right;
+    margin-right:       2%;         
+    margin-bottom:      10px;
+    width:              45%;
+    background-color:   #d3edff;
+    border-color:       #00b5ff;
+    padding-bottom:     8px;
+    height: 900px
                 }    
                 #myViz {
-                    top: 15px;
+/*                    top: 15px;
                     right: 850px;
                     height: 760px;
-                    width: 760px;
                     position: absolute;
                     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    min-width: 300px;
+                    width: 760px;             */
+    float:              left;
+    width:              45%; 
+    height: 900px;
+    margin-left:       2%;
+    margin-bottom:      10px;
                 }                    
                 #credits-box{
                     background-color: rgb(249, 247, 237);
@@ -102,10 +121,35 @@ and open the template in the editor.
                     width: 160px;
                 }
             </style>
-            <div class="row">
                 <div id="graph-container"></div>
-                <div id='myViz'></div>
-            </div>
+                                <!--<div id='myViz'></div>-->
+
+                <div class='tableauPlaceholder' 
+                id='viz1492987326511' 
+                style='position: relative'>
+                    <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CH&#47;CHASE_Analysis&#47;AuthorsList&#47;1_rss.png' style='border: none' /></a></noscript>
+                    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='CHASE_Analysis&#47;AuthorsList' />
+                        <param name='tabs' value='yes' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CH&#47;CHASE_Analysis&#47;AuthorsList&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                    </object>
+                </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1492987326511');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                   
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
 
             <div id="credits-box">
                 2017
