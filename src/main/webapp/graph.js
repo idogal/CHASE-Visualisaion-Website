@@ -2,6 +2,8 @@
  * This is an example on how to use sigma filters plugin on a real-world graph.
  */
 var filter;
+var actualGraph;
+var graphType;
 
 /**
  * DOM utility functions
@@ -39,19 +41,6 @@ var utils = {
         }
     }
 };
-
-// Add a method to the graph model that returns an
-// object with every neighbors of a node inside:
-sigma.classes.graph.addMethod('neighbors', function (nodeId) {
-    var k,
-            neighbors = {},
-            index = this.allNeighborsIndex[nodeId] || {};
-
-    for (k in index)
-        neighbors[k] = this.nodesIndex[k];
-
-    return neighbors;
-});
 
 function updatePane(graph, filter) {
     // get max degree
@@ -170,8 +159,7 @@ function parseAPDataXML(data, authorName) {
     return allPublications;
 }
 
-function getAuthorData(authorName)
-{
+function getAuthorData(authorName) {
     var file = "resources/ap_data.xml";
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
@@ -192,16 +180,22 @@ function getAuthorData(authorName)
     rawFile.send();
 }
 
-var actualGraph;
-
-function showGraph(pathToFile) {    
+function showGraph(networkType) {
+    var pathToFile = "data/simple.gexf";
+    graphType = "simple";
+    
+    if (networkType === "abc") {
+        pathToFile = "data/abc.gexf";
+        graphType = "abc";
+    }
+    
     if (actualGraph) {
         sigma.parsers.gexf( 
             pathToFile,
             actualGraph,
             function(s) {
-               s.refresh();
                initGraphFuncionality(s);
+                s.refresh();
             }
         );    
     } else {    
@@ -222,8 +216,8 @@ function showGraph(pathToFile) {
                 }
             },
             function(s) {
-                actualGraph = s;
                 initGraphFuncionality(s);
+                actualGraph = s;                
             }
         );
     }; 
@@ -239,7 +233,28 @@ function resetHtmlActions() {
     document.getElementById("details-pane").hidden = true;
 }
 
+function defineSettings(s) {
+    
+    var defaultLabelSize = 12;
+    var labelThreshold = 4;
+    
+    if (graphType === "abc") {
+        defaultLabelSize = 14;
+        labelThreshold = 4;
+    } 
+    
+    if (graphType === "simple") {
+        defaultLabelSize = 12;
+        labelThreshold = 4;
+    } 
+    
+    s.settings('labelThreshold', labelThreshold);
+    s.settings('defaultLabelSize', defaultLabelSize);
+}
+
 function initGraphFuncionality(s) {
+    defineSettings(s);
+    
     filter = new sigma.plugins.filter(s);
     updatePane(s.graph, filter);
 
@@ -263,24 +278,11 @@ function initGraphFuncionality(s) {
     // nodes and edges, like this:
     s.graph.nodes().forEach(function (n) {
         n.originalColor = n.color;
+        n.originalSize = n.size;
+               
     });
     s.graph.edges().forEach(function (e) {
         e.originalColor = e.color;
-    });
-
-
-
-    s.bind('clickNode', function (e) {
-        var nodeId = e.data.node.id;
-        var nodeLabel = e.data.node.label;
-        var authorNameElement = document.getElementById("authorName");
-        authorNameElement.value = nodeLabel;
-
-        highlightNeighbours(e, nodeId);
-
-        getAuthorData(nodeLabel);
-        //var event = new Event('input');
-        //authorNameElement.dispatchEvent(event);
     });
 
     function applyMinDegreeFilter(e) {
@@ -288,33 +290,11 @@ function initGraphFuncionality(s) {
         utils.$('min-degree-val').textContent = v;
 
         filter
-                .undo('min-degree')
-                .nodesBy(function (n) {
-                    return this.degree(n.id) >= v;
-                }, 'min-degree')
-                .apply();
-    }
-
-    function highlightNeighbours(e, nodeId) {
-        var toKeep = s.graph.neighbors(nodeId);
-        if (e.type === "clickNode")
-            toKeep[nodeId] = e.data.node;
-
-        s.graph.nodes().forEach(function (n) {
-            if (toKeep[n.id])
-                n.color = n.originalColor;
-            else
-                n.color = '#eee';
-        });
-
-        s.graph.edges().forEach(function (e) {
-            if (toKeep[e.source] && toKeep[e.target])
-                e.color = e.originalColor;
-            else
-                e.color = '#eee';
-        });
-
-        s.refresh();
+            .undo('min-degree')
+            .nodesBy(function (n) {
+                return this.degree(n.id) >= v;
+            }, 'min-degree')
+            .apply();
     }
 
     function getInputAuthorNode(authorName) {
@@ -330,27 +310,49 @@ function initGraphFuncionality(s) {
         return returnNode;
     }
 
-    function filterByAuthor(e) {
+    function highlightNeighbours(event, node) {
+        var nodeId = node.id;
+        
+        var toKeep = s.graph.neighbors(nodeId);
+        
+        //if (event.type === "clickNode")
+            toKeep[nodeId] = node;
+
+        s.graph.nodes().forEach(function (n) {
+            if (toKeep[n.id])
+                n.color = n.originalColor;
+            else
+                n.color = '#eee';
+            
+            if (n.id === nodeId) {
+                n.size = n.size * 4;
+            }
+        });
+
+        s.graph.edges().forEach(function (edges) {
+            if (toKeep[edges.source] && toKeep[edges.target])
+                edges.color = edges.originalColor;
+            else
+                edges.color = '#eee';
+        });    
+
+        s.refresh();
+    }
+
+    function executeHighlight(event, node) {
+        resetGraph();
+        highlightNeighbours(event, node);
+        getAuthorData(node.label);
+        
+        s.refresh();
+    }
+
+    function filterByAuthor(event) {
         var inputAuthourName = document.getElementById("authorName").value;
         var inputAuthorNode = getInputAuthorNode(inputAuthourName);
-
+        
         if (typeof inputAuthorNode !== 'undefined') {
-            var inputAuthorNodeID = inputAuthorNode.id;
-            highlightNeighbours(e, inputAuthorNodeID);
-
-            s.graph.nodes().forEach(function (n) {
-                if (inputAuthorNodeID === n.id) {
-                    n.color = n.originalColor;
-                }
-            });
-
-            s.graph.edges().forEach(function (e) {
-                if ((e.source === inputAuthorNode.id || e.target === inputAuthorNode.id)) {
-                    e.color = e.originalColor;
-                }
-            });
-
-            s.refresh();
+            executeHighlight(event, inputAuthorNode)
         }
     }
 
@@ -362,6 +364,7 @@ function initGraphFuncionality(s) {
     function resetGraph() {
         s.graph.nodes().forEach(function (n) {
             n.color = n.originalColor;
+            n.size = n.originalSize;
         });
 
         s.graph.edges().forEach(function (e) {
@@ -382,24 +385,46 @@ function initGraphFuncionality(s) {
                 });
         console.log(output);
     }
-    ;
+    
+    var clickNodeHandler = s._handlers.clickNode;
+    if (!clickNodeHandler) {
+        s.bind('clickNode', function (clickNodeEvent) {
+            var node = clickNodeEvent.data.node;
 
-    utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
-    utils.$('min-degree').addEventListener("change", applyMinDegreeFilter); // for IE10+, that sucks
-    utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);
-    utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
-    utils.$('export-btn').addEventListener("click", exportGraph);
-    utils.$('authorName').addEventListener("input", filterByAuthor);
-    utils.$('authorName').addEventListener("change", filterByAuthor);
-    // reset button
-    utils.$('reset-btn').addEventListener("click", function (e) {
-        utils.$('min-degree').value = 0;
-        utils.$('min-degree-val').textContent = '0';
-        //utils.$('node-category').selectedIndex = 0;
-        filter.undo().apply();
-        utils.$('dump').textContent = '';
-        utils.hide('#dump');
-    });
+            var authorNameElement = document.getElementById("authorName");
+            authorNameElement.value = node.label;
+
+            executeHighlight(clickNodeEvent, node);
+        });
+        
+        utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
+        utils.$('min-degree').addEventListener("change", applyMinDegreeFilter); // for IE10+, that sucks
+        utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);
+        utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
+        utils.$('export-btn').addEventListener("click", exportGraph);
+        utils.$('authorName').addEventListener("input", filterByAuthor);
+        utils.$('reset-btn').addEventListener("click", function (e) {
+            utils.$('min-degree').value = 0;
+            utils.$('min-degree-val').textContent = '0';
+            //utils.$('node-category').selectedIndex = 0;
+            filter.undo().apply();
+            utils.$('dump').textContent = '';
+            utils.hide('#dump');
+        });       
+    }   
 }
 
-showGraph("data/simple.gexf");
+// Add a method to the graph model that returns an
+// object with every neighbors of a node inside:
+sigma.classes.graph.addMethod('neighbors', function (nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+        neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+});
+
+showGraph("simple");
