@@ -209,9 +209,9 @@ function showGraph(networkType) {
                 settings: {
                     edgeLabelSize: 'proportional',
                     minArrowSize: '7',
-                    defaultEdgeType: 'curvedArrow',
+                    defaultEdgeType: 'curve',
                     hoverFontStyle: 'bold',
-                    labelThreshold: 4,
+                    labelThreshold: 5,
                     defaultLabelSize: 12
                 }
             },
@@ -236,7 +236,7 @@ function resetHtmlActions() {
 function defineSettings(s) {
     
     var defaultLabelSize = 12;
-    var labelThreshold = 4;
+    var labelThreshold = 5;
     
     if (graphType === "abc") {
         defaultLabelSize = 14;
@@ -245,7 +245,7 @@ function defineSettings(s) {
     
     if (graphType === "simple") {
         defaultLabelSize = 12;
-        labelThreshold = 4;
+        labelThreshold = 5;
     } 
     
     s.settings('labelThreshold', labelThreshold);
@@ -325,7 +325,8 @@ function initGraphFuncionality(s) {
                 n.color = '#eee';
             
             if (n.id === nodeId) {
-                n.size = n.size * 4;
+                n.size = n.size * 2;
+                n.color = "#9400D3";
             }
         });
 
@@ -379,8 +380,8 @@ function initGraphFuncionality(s) {
         console.log('exporting...');
         var output = s.toSVG(
                 {download: true
-                    , filename: 'CHASE_Authors_BC_Graph.svg'
-                    , size: 1000
+                    , filename: 'CHASE_Network_Output.svg'
+                    , size: 4000
                     , labels: true
                 });
         console.log(output);
