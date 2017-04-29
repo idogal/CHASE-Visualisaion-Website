@@ -1,16 +1,19 @@
 var viz;
 
-window.onload = function () {
-    var vizDiv = document.getElementById('myViz');
-    var vizURL = "https://public.tableau.com/views/CHASE_Analysis/AuthorsList?:embed=y&:display_count=yes";
+function loadChaseViz () {
+    var vizDiv = document.getElementById('chaseVizContainer');
+    var vizURL = "https://public.tableau.com/views/CHASEWorkshopAnalysisVisualisation2/FieldsDashboard?:embed=y&:display_count=yes";
+//    w= window.frameElement.offsetWidth-20;
+//    h= window.frameElement.offsetHeight-20;    
     var options = {
-        width: '45%',
-        height: '900px'
+        width: '1000px', 
+        height: '950px'
+        //hideTabs: true,
     };
 
     viz = new tableau.Viz(vizDiv, vizURL, options);
     
-    viz.addEventListener(tableau.TableauEventName.MARKS_SELECTION, onMarksSelection);
+    //viz.addEventListener(tableau.TableauEventName.MARKS_SELECTION, onMarksSelection);
 };
 
 // Content below is to resolve warning for missing 'tableau' object
