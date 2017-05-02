@@ -2,7 +2,7 @@ var viz;
 
 function loadChaseViz () {
     var vizDiv = document.getElementById('chaseVizContainer');
-    var vizURL = "https://public.tableau.com/views/CHASEWorkshopAnalysisVisualisation2/FieldsDashboard?:embed=y&:display_count=yes";
+    var vizURL = "https://public.tableau.com/views/CHASEWorkshopAnalysisVisualisation2/Papers-RawData?:embed=y&:display_count=yes";
 //    w= window.frameElement.offsetWidth-20;
 //    h= window.frameElement.offsetHeight-20;    
     var options = {

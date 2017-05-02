@@ -209,10 +209,10 @@ function showGraph(networkType) {
                 settings: {
                     //autoRescale: false,
                     edgeLabelSize: 'proportional',
-                    minArrowSize: '7',
+                    minArrowSize: '5',
                     defaultEdgeType: 'curve',
                     hoverFontStyle: 'bold',
-                    labelThreshold: 5,
+                    labelThreshold: 6,
                     defaultLabelSize: 12
                 }
             },
@@ -235,31 +235,47 @@ function resetHtmlActions() {
         authorDetailsElement.innerHTML = "";
         document.getElementById("details-pane").style.display = "none";
     }
-    
-    
-    
 }
 
 function defineSettings(s) {
     
     var defaultLabelSize = 12;
-    var labelThreshold = 5;
+    var labelThreshold = 6;
     
     if (graphType === "abc") {
         defaultLabelSize = 14;
-        labelThreshold = 4;
+        
+        s.graph.edges().forEach(function (e) {
+            e.type = e.originalType;
+        });        
     } 
     
     if (graphType === "simple") {
         defaultLabelSize = 12;
-        labelThreshold = 5;
+        
+        s.graph.edges().forEach(function (e) {
+            e.type = 'arrow';
+        });
     } 
     
     s.settings('labelThreshold', labelThreshold);
     s.settings('defaultLabelSize', defaultLabelSize);
+//    s.settings('minArrowSize', 1);
 }
 
-function initGraphFuncionality(s) {
+function initGraphFuncionality(s) { 
+    
+    //Store original settings
+    s.graph.nodes().forEach(function (n) {
+        n.originalColor = n.color;
+        n.originalSize = n.size;
+               
+    });
+    s.graph.edges().forEach(function (e) {
+        e.originalColor = e.color;
+        e.originalType = e.type;
+    });    
+    
     defineSettings(s);
     
     filter = new sigma.plugins.filter(s);
@@ -281,17 +297,6 @@ function initGraphFuncionality(s) {
         console.log(event);
     });
 
-    // We first need to save the original colors of our
-    // nodes and edges, like this:
-    s.graph.nodes().forEach(function (n) {
-        n.originalColor = n.color;
-        n.originalSize = n.size;
-               
-    });
-    s.graph.edges().forEach(function (e) {
-        e.originalColor = e.color;
-    });
-
     function applyMinDegreeFilter(e) {
         var v = e.target.value;
         utils.$('min-degree-val').textContent = v;
@@ -302,6 +307,13 @@ function initGraphFuncionality(s) {
                 return this.degree(n.id) >= v;
             }, 'min-degree')
             .apply();
+    }
+    
+    function applyThreshold(e) {
+        var labelThreshold = e.target.value;
+        s.settings('labelThreshold', labelThreshold);   
+        
+        s.refresh();
     }
 
     function getInputAuthorNode(authorName) {
@@ -408,7 +420,11 @@ function initGraphFuncionality(s) {
         utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
         utils.$('min-degree').addEventListener("change", applyMinDegreeFilter); // for IE10+, that sucks
         utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);
-        utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
+//        utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
+        
+        utils.$('label-threshold-input').addEventListener("input", applyThreshold);  // for Chrome and FF
+        utils.$('label-threshold-input').addEventListener("change", applyThreshold); // for IE10+, that sucks
+        
         utils.$('export-btn').addEventListener("click", exportGraph);
         utils.$('authorName').addEventListener("input", filterByAuthor);
         utils.$('reset-btn').addEventListener("click", function (e) {
@@ -419,7 +435,9 @@ function initGraphFuncionality(s) {
             utils.$('dump').textContent = '';
             utils.hide('#dump');
         });       
-    }   
+    } 
+    
+    s.refresh();
 }
 
 // Add a method to the graph model that returns an

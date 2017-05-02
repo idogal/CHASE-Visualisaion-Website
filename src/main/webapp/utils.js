@@ -2,7 +2,7 @@ window.onload = function (event) {
     populateValues();
 };
 
-function showDashboard() {
+function displayDashboard() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
     
@@ -19,7 +19,7 @@ function showDashboard() {
     }
 };
 
-function showGraph() {
+function displayNetwork() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
     

@@ -7,21 +7,26 @@ and open the template in the editor.
 <html> 
     <head> 
         <title>The CHASE Workshop Analysis & Visualisation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
+        <!-- Tableau functionality -->
 	<script src="http://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
         <script src="tableauViz.js" type="application/javascript"></script>            
 
-        <script src="sigma/sigma.min.js" type="text/javascript"></script>
-        <script src="sigma/plugins/sigma.parsers.gexf.min.js" type="text/javascript"></script>  
-        <script src="sigma/plugins/sigma.plugins.filter.min.js" type="text/javascript"></script>  
-        <script src="sigma/plugins/sigma.plugins.dragNodes.min.js" type="text/javascript"></script>
-        <script src="sigma/plugins/sigma.exporters.svg.min.js" type="text/javascript"></script>
+        <!-- Sigma.js network functionality -->
+        <script src="jslibs/sigma/sigma.min.js" type="text/javascript"></script>
+        <script src="jslibs/sigma/plugins/sigma.parsers.gexf.min.js" type="text/javascript"></script>  
+        <script src="jslibs/sigma/plugins/sigma.plugins.filter.min.js" type="text/javascript"></script>  
+        <script src="jslibs/sigma/plugins/sigma.plugins.dragNodes.min.js" type="text/javascript"></script>
+        <script src="jslibs/sigma/plugins/sigma.exporters.svg.min.js" type="text/javascript"></script>
         
         <script src="graph.js" type="application/javascript"></script>
 
-        <script src="jquery-3.2.1.min.js"></script> 
+        <!-- General functionality -->
+        <script src="jslibs/jquery-3.2.1.min.js"></script> 
         <script src="utils.js"></script> 
 
+        <!-- Styling -->
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
     </head> 
 
@@ -47,7 +52,7 @@ and open the template in the editor.
                 padding: 5px;                    
             }
             #details-pane {
-                top: calc(50px + 3%);
+                top: calc(50px + 2%);
                 left: 30px;
                 position: absolute;
                 width: 17%;
@@ -58,7 +63,7 @@ and open the template in the editor.
                 overflow: auto;
             }                
             #control-pane {
-                top: calc(50px + 3%);
+                top: calc(50px + 2%);
                 left: calc(100% - 16% - 30px);
                 position: absolute;
                 width: 16%;
@@ -106,14 +111,45 @@ and open the template in the editor.
             input[type=range] {
                 width: 160px;
             }            
+            
+            .tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black;
+            }
 
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 190px;
+                background-color: #9370DB;
+                color: #fff;
+                text-align: left;
+                border-radius: 6px;
+                padding: 5px;
 
+                /* Position the tooltip */
+                position: absolute;
+                z-index: 1;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+            
             /* Add a black background color to the top navigation */
             .topnav {
                 background-color: #333;
                 overflow: hidden;
+                
             }
-
+            .topnav div {
+                float: left;
+                color: #9370DB;
+                text-align: center;
+                padding: 10px 10px;     
+                display: block;
+                font-size: 16px;
+            }
             /* Style the links inside the navigation bar */
             .topnav a {
                 float: left;
@@ -139,11 +175,12 @@ and open the template in the editor.
         </style>
 
         <div class="topnav" id="myTopnav">
-            <a id="authorsGraphBtn" onclick="showGraph()">Author's Network</a>
-            <a id="dashboardBtn" onclick="showDashboard()">General Statistics</a>
+            <div>CHASE WORKSHOP</div>
+            <a id="authorsGraphBtn" onclick="displayNetwork()">Authors Network</a>
+            <a id="dashboardBtn" onclick="displayDashboard()">General Statistics Dashboard</a>
         </div>
         <center>
-            <div id="dashboardContent"></div>
+            <div id="dashboardContent" style="padding: 5px;"></div>
         </center>
         <div id="graphContainer">             
             <div id="graph-container">
@@ -153,41 +190,48 @@ and open the template in the editor.
                 <p id="authors-details-paragraph"></p>            
             </div>              
             <div id="credits-box">
-                2017
-                <br>
                 Powered by: <a target="_blank" href="http://sigmajs.org/">sigma.js</a>
                 <br>
                 Network parsed by: <a target="_blank" href="http://www.gephi.org/">Gephi</a>
+                <br>
+                Data retrieved from:  <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/academic-knowledge-api">Microsoft Academic Knowledge API</a> (April 2017)    
             </div>
             <div id="control-pane">
                 <h2 class="underline">The CHASE Authors Community Network</h2>
                 <div>
-                    <a href="http://chasevis.azurewebsites.net/tableau.html" target="_blank">Open the related Tableau dashboard</a>
-                    <br><br>
+                    <!--<a href="http://chasevis.azurewebsites.net/tableau.html" target="_blank">Open the related Tableau dashboard</a>-->
+                    <!--<br><br>-->
                     <b>Click on a node to highlight it's neighbouring nodes.</b>
                     <h3>Network type</h3>
-                    <form>
-                        <input type="radio" name="networktype" value="simple" onclick="showGraph('simple')" checked>Citation coupling network<br>
-                        <input type="radio" name="networktype" value="bc" onclick="showGraph('abc')">Authors Bibliographical Coupling network<br>
+                    <form id="networkTypeRadio">
+                        <input  id="networkTypeRadioA" type="radio" name="networktype" value="simple" onclick="showGraph('simple')" checked>
+                        <div class="tooltip">
+                            Citation coupling
+                            <span class="tooltiptext">
+                                A directed graph. 
+                                The number of times authors cited each other.</span>
+                        </div>
+                        <br>
+                        <input id="networkTypeRadioB" type="radio" name="networktype" onclick="showGraph('abc')" value="bc">
+                        <div class="tooltip">
+                            Authors Bibliographic Coupling
+                            <span class="tooltiptext">An undirected graph. 
+                                A function of the shared references between authors based on Bibliographic Coupling</span>
+                        </div>
+                        <br>                        
                     </form>
-                    <p style="font-size:12px;">
-                        <u>Citation coupling:</u> The number of times author A cited author B. <br>
-                        <u>Bibliographical Coupling:</u> Refer to the <a target="_blank" href="https://en.wikipedia.org/wiki/Bibliographic_coupling">Wikipedia entry</a>
-                    </p>
-                </div>
-                <div>
                     <h3>Author name</h3>
                     <select  id="authorName" style="width: 80%">
                         <option value="NA"></option>
                     </select>
                     <div>
                         <br>
-                        <button id="apply-author-btn">Filter by author</button>
+                        <!--<button id="apply-author-btn">Filter by author</button>-->
                         <button id="reset-author-btn">Reset author</button>
                     </div>                    
                 </div>
                 <div>
-                    <h3>min degree 
+                    <h3>Minimun degree 
                         <span id="min-degree-val">0</span>
                     </h3>
                     0 <input id="min-degree" min="0" max="34" value="0" type="range"> <span id="max-degree-value">34</span>
@@ -195,6 +239,9 @@ and open the template in the editor.
                         <br>
                         <button id="reset-btn">Reset min. degree</button>
                     </div>
+                    <h3>Label threshold 
+                    </h3>
+                    0 <input id="label-threshold-input" min="0" max="8" value="6" type="range"> 8
                 </div>
                 <span class="line"></span>
                 <div>
