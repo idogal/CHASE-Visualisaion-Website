@@ -11,6 +11,9 @@ function loadChaseViz () {
         //hideTabs: true,
     };
 
+//    $.getScript("http://public.tableau.com/javascripts/api/tableau-2.min.js", function () {
+//    });
+
     viz = new tableau.Viz(vizDiv, vizURL, options);
     
     //viz.addEventListener(tableau.TableauEventName.MARKS_SELECTION, onMarksSelection);

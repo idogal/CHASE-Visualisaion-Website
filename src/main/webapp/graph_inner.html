@@ -1,0 +1,62 @@
+<script src="graph.js" type="application/javascript"></script>
+<script src="utils.js"></script> 
+<div id="container">
+    <div id="graph-container">
+    </div>
+    <div>
+        <div hidden="true" id="details-pane">
+            <h3>CHASE Publications</h3>
+            <p id="authors-details-paragraph"></p>            
+        </div>              
+        <div id="credits-box">
+            2017
+            <br>
+            Powered by: <a target="_blank" href="http://sigmajs.org/">sigma.js</a>
+            <br>
+            Network parsed by: <a target="_blank" href="http://www.gephi.org/">Gephi</a>
+        </div>
+        <div id="control-pane">
+            <h2 class="underline">The CHASE Authors Community Network</h2>
+            <div>
+                <a href="http://chasevis.azurewebsites.net/tableau.html" target="_blank">Open the related Tableau dashboard</a>
+                <br><br>
+                <b>Click on a node to highlight it's neighbouring nodes.</b>
+                <h3>Network type</h3>
+                <form>
+                    <input type="radio" name="networktype" value="simple" onclick="showGraph('simple')" checked>Citation coupling network<br>
+                    <input type="radio" name="networktype" value="bc" onclick="showGraph('abc')">Authors Bibliographical Coupling network<br>
+                </form>
+                <p style="font-size:12px;">
+                    <u>Citation coupling:</u> The number of times author A cited author B. <br>
+                    <u>Bibliographical Coupling:</u> Refer to the <a target="_blank" href="https://en.wikipedia.org/wiki/Bibliographic_coupling">Wikipedia entry</a>
+                </p>
+            </div>
+            <div>
+                <h3>Author name</h3>
+                <select  id="authorName" style="width: 80%">
+                    <option value="NA"></option>
+                </select>
+                <div>
+                    <br>
+                    <button id="apply-author-btn">Filter by author</button>
+                    <button id="reset-author-btn">Reset author</button>
+                </div>                    
+            </div>
+            <div>
+                <h3>min degree 
+                    <span id="min-degree-val">0</span>
+                </h3>
+                0 <input id="min-degree" min="0" max="34" value="0" type="range"> <span id="max-degree-value">34</span>
+                <div>
+                    <br>
+                    <button id="reset-btn">Reset min. degree</button>
+                </div>
+            </div>
+            <span class="line"></span>
+            <div>
+                <button id="export-btn">Export to SVG</button>
+            </div>
+            <div id="dump" class="hidden"></div>
+        </div>        
+    </div>
+</div>

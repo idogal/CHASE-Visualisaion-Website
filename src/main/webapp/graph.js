@@ -207,6 +207,7 @@ function showGraph(networkType) {
                     type: 'canvas'
                 },
                 settings: {
+                    //autoRescale: false,
                     edgeLabelSize: 'proportional',
                     minArrowSize: '7',
                     defaultEdgeType: 'curve',
@@ -222,16 +223,16 @@ function showGraph(networkType) {
         );
     }; 
     
-    resetHtmlActions();
+//    resetHtmlActions();
 }
 
-function resetHtmlActions() {
-    var authorNameElement = document.getElementById("authorName");
-    var authorDetailsElement = document.getElementById("authors-details-paragraph");
-    authorNameElement.value = "";
-    authorDetailsElement.innerHTML = "";
-    document.getElementById("details-pane").hidden = true;
-}
+//function resetHtmlActions() {
+//    var authorNameElement = document.getElementById("authorName");
+//    var authorDetailsElement = document.getElementById("authors-details-paragraph");
+//    authorNameElement.value = "";
+//    authorDetailsElement.innerHTML = "";
+//    document.getElementById("details-pane").hidden = true;
+//}
 
 function defineSettings(s) {
     

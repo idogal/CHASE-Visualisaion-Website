@@ -1,3 +1,35 @@
+//$(document).ready(function () {
+//    $.getScript("http://public.tableau.com/javascripts/api/tableau-2.min.js", function () {
+//    });
+//});
+   
+
+function showDashboard() {
+    var dashboardContainer = document.getElementById("dashboardContent");
+    var graphContainer = document.getElementById("graphContainer");
+    
+    dashboardContainer.style.display = 'block';
+    graphContainer.style.display = 'none';
+    
+    var dashboardInnerHTML = dashboardContainer.innerHTML;
+    if (dashboardInnerHTML === "") {
+        var content = document.createElement("div");
+        content.id = "chaseVizContainer";
+        dashboardContainer.appendChild(content);
+
+        loadChaseViz();        
+    }
+}
+
+function showGraph() {
+    var dashboardContainer = document.getElementById("dashboardContent");
+    var graphContainer = document.getElementById("graphContainer");
+    
+    dashboardContainer.style.display = 'none';
+    graphContainer.style.display = 'block';
+
+}
+
 function getAuthorNamesFromXML(data) {
     if (window.DOMParser)
     {
@@ -33,9 +65,10 @@ function getAuthorNamesFromXML(data) {
     }    
     
     return allNames;
-}
+};
 
-window.onload = function (event) {
+//window.onload = 
+function populateValues (event) {
     var file = "resources/ap_data.xml";
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
