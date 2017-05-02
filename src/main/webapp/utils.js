@@ -92,3 +92,91 @@ function populateValues () {
     };
     rawFile.send();
 };
+
+var httpGetAsyncClient = function() {
+    this.get = function(theUrl, callback) {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = function() { 
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                callback(xmlHttp.responseText);
+            } 
+            else {
+                console.log("Error", xmlHttp.status);
+                console.log("Error", xmlHttp.statusText);
+            }        
+        }
+
+        xmlHttp.open( "GET", theUrl, true );            
+        xmlHttp.setRequestHeader("Ocp-Apim-Subscription-Key", "a6c3afc42b9d4d759d94367221a91af2");
+        xmlHttp.send( null );
+    }
+}
+
+//function detectCoCitations(authorName) {
+//
+//    var authorPapersRefs = new Array();
+//
+//
+//    
+//    processCocitations(authorName, function (callback) {
+//        callback(processCocitations(authorName));
+//        console.log('Pass2');
+//    });
+//
+//}
+
+function processCocitations(authorName) {
+    var authorPapersRefs = new Array();
+    
+    var getAuthorPapersUrl = "https://westus.api.cognitive.microsoft.com/academic/v1.0/evaluate?expr=Composite(AA.AuN='" 
+            + authorName 
+            + "')&attributes=Id,Ti";
+    
+    var client = new httpGetAsyncClient();
+    client.get(getAuthorPapersUrl, function(response) {
+        var authorPapers = JSON.parse(response);
+        
+        if (authorPapers) { 
+            for (var i = 0, max = authorPapers.entities.length; i < max; i++) {
+                var paperID =  authorPapers.entities[i].Id;
+                var paperTitle =  authorPapers.entities[i].Ti;
+
+                var getPaperRefsUrl = "https://westus.api.cognitive.microsoft.com/academic/v1.0/evaluate?expr=Id=" 
+                        + paperID 
+                        + "&attributes=RId";
+                
+                client.get(getPaperRefsUrl, function (response) {
+                    var paperRefs = JSON.parse(response);
+
+                    var authorPapersRef = new Object();
+
+                    var refs = paperRefs.entities[0].RId;
+                    if (refs) {
+                        for (var j = 0, max = refs.length; j < max; j++) {
+                            var refID = refs[j];
+
+
+                            authorPapersRef.name = authorName;
+                            authorPapersRef.paperId = paperID;
+                            authorPapersRef.paperTitle = paperTitle;
+                            authorPapersRef.refId = refID;
+
+                            authorPapersRefs.push(authorPapersRef);
+                        }
+                    } else {
+                        var authorPapersRef = new Object();
+                        authorPapersRef.name = authorName;
+                        authorPapersRef.paperId = paperID;
+                        authorPapersRef.paperTitle = paperTitle;
+
+                        authorPapersRefs.push(authorPapersRef);
+                    }
+                }); 
+            }    
+        }
+        
+        console.log('Pass1');
+    });
+    
+    
+}

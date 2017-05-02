@@ -417,6 +417,18 @@ function initGraphFuncionality(s) {
             executeHighlight(clickNodeEvent, node);
         });
         
+//        s.bind('doubleClickNode', function(dblClickNodeEvent) {
+//           
+//            $.getScript("utils.js", function(){
+//            });
+//            
+//            var node = dblClickNodeEvent.data.node;
+//            var authorName = node.label;
+//            
+//            processCocitations(authorName);
+//            
+//        });
+        
         utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
         utils.$('min-degree').addEventListener("change", applyMinDegreeFilter); // for IE10+, that sucks
         utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);

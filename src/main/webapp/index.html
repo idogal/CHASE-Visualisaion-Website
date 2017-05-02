@@ -129,6 +129,8 @@ and open the template in the editor.
 
                 /* Position the tooltip */
                 position: absolute;
+                left: 3px;
+                bottom: 5px;
                 z-index: 1;
             }
 
@@ -208,14 +210,14 @@ and open the template in the editor.
                         <div class="tooltip">
                             Citation coupling
                             <span class="tooltiptext">
-                                A directed graph. 
+                                A directed graph. <br>
                                 The number of times authors cited each other.</span>
                         </div>
                         <br>
                         <input id="networkTypeRadioB" type="radio" name="networktype" onclick="showGraph('abc')" value="bc">
                         <div class="tooltip">
                             Authors Bibliographic Coupling
-                            <span class="tooltiptext">An undirected graph. 
+                            <span class="tooltiptext">An undirected graph.<br>
                                 A function of the shared references between authors based on Bibliographic Coupling</span>
                         </div>
                         <br>                        
