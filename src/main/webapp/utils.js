@@ -1,8 +1,6 @@
-//$(document).ready(function () {
-//    $.getScript("http://public.tableau.com/javascripts/api/tableau-2.min.js", function () {
-//    });
-//});
-   
+window.onload = function (event) {
+    populateValues();
+};
 
 function showDashboard() {
     var dashboardContainer = document.getElementById("dashboardContent");
@@ -19,7 +17,7 @@ function showDashboard() {
 
         loadChaseViz();        
     }
-}
+};
 
 function showGraph() {
     var dashboardContainer = document.getElementById("dashboardContent");
@@ -28,7 +26,7 @@ function showGraph() {
     dashboardContainer.style.display = 'none';
     graphContainer.style.display = 'block';
 
-}
+};
 
 function getAuthorNamesFromXML(data) {
     if (window.DOMParser)
@@ -65,10 +63,9 @@ function getAuthorNamesFromXML(data) {
     }    
     
     return allNames;
-};
-
-//window.onload = 
-function populateValues (event) {
+};        
+        
+function populateValues () {
     var file = "resources/ap_data.xml";
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);

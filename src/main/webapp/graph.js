@@ -172,7 +172,7 @@ function getAuthorData(authorName) {
                 var allText = rawFile.responseText;
                 var publicationText = parseAPDataXML(allText, authorName);
                 
-                document.getElementById("details-pane").hidden = false;
+                document.getElementById("details-pane").style.display = 'block';
                 document.getElementById("authors-details-paragraph").innerHTML = publicationText;
             }
         }
@@ -223,16 +223,22 @@ function showGraph(networkType) {
         );
     }; 
     
-//    resetHtmlActions();
+    resetHtmlActions();
 }
 
-//function resetHtmlActions() {
-//    var authorNameElement = document.getElementById("authorName");
-//    var authorDetailsElement = document.getElementById("authors-details-paragraph");
-//    authorNameElement.value = "";
-//    authorDetailsElement.innerHTML = "";
-//    document.getElementById("details-pane").hidden = true;
-//}
+function resetHtmlActions() {
+    var authorNameElement = document.getElementById("authorName");
+    var authorDetailsElement = document.getElementById("authors-details-paragraph");
+    
+    if (authorNameElement !== null) {
+        authorNameElement.value = "";
+        authorDetailsElement.innerHTML = "";
+        document.getElementById("details-pane").style.display = "none";
+    }
+    
+    
+    
+}
 
 function defineSettings(s) {
     
