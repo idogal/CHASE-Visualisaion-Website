@@ -439,14 +439,14 @@ function initGraphFuncionality(s) {
         
         utils.$('export-btn').addEventListener("click", exportGraph);
         utils.$('authorName').addEventListener("input", filterByAuthor);
-        utils.$('reset-btn').addEventListener("click", function (e) {
-            utils.$('min-degree').value = 0;
-            utils.$('min-degree-val').textContent = '0';
-            //utils.$('node-category').selectedIndex = 0;
-            filter.undo().apply();
-            utils.$('dump').textContent = '';
-            utils.hide('#dump');
-        });       
+//        utils.$('reset-btn').addEventListener("click", function (e) {
+//            utils.$('min-degree').value = 0;
+//            utils.$('min-degree-val').textContent = '0';
+//            //utils.$('node-category').selectedIndex = 0;
+//            filter.undo().apply();
+//            utils.$('dump').textContent = '';
+//            utils.hide('#dump');
+//        });       
     } 
     
     s.refresh();

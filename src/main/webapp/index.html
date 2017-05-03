@@ -10,7 +10,8 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <!-- Tableau functionality -->
-	<script src="http://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	<!--<script src="http://public.tableau.com/javascripts/api/tableau-2.min.js"></script>-->
+        <script src="jslibs/tableau-2.1.2.min.js"></script>
         <script src="tableauViz.js" type="application/javascript"></script>            
 
         <!-- Sigma.js network functionality -->
@@ -75,6 +76,7 @@ and open the template in the editor.
             #control-pane > div {
                 margin: 10px;
                 overflow-x: auto;
+                overflow: visible;
             }
             .line {
                 clear: both;
@@ -117,23 +119,24 @@ and open the template in the editor.
                 display: inline-block;
                 border-bottom: 1px dotted black;
             }
-
             .tooltip .tooltiptext {
                 visibility: hidden;
-                width: 190px;
+                width: 210px;
                 background-color: #9370DB;
                 color: #fff;
                 text-align: left;
                 border-radius: 6px;
                 padding: 5px;
+                font-size: 14px;
 
                 /* Position the tooltip */
                 position: absolute;
                 left: 3px;
                 bottom: 5px;
-                z-index: 1;
+                z-index: auto;
+                
+                overflow: auto;
             }
-
             .tooltip:hover .tooltiptext {
                 visibility: visible;
             }
@@ -142,6 +145,7 @@ and open the template in the editor.
             .topnav {
                 background-color: #333;
                 overflow: hidden;
+                font-variant: small-caps;
                 
             }
             .topnav div {
@@ -151,6 +155,7 @@ and open the template in the editor.
                 padding: 10px 10px;     
                 display: block;
                 font-size: 16px;
+                
             }
             /* Style the links inside the navigation bar */
             .topnav a {
@@ -203,22 +208,30 @@ and open the template in the editor.
                 <div>
                     <!--<a href="http://chasevis.azurewebsites.net/tableau.html" target="_blank">Open the related Tableau dashboard</a>-->
                     <!--<br><br>-->
-                    <b>Click on a node to highlight it's neighbouring nodes.</b>
+                    (1) Click on a node to highlight it's neighbouring nodes.
+                    (2) Hover over an underlined menu elements to see more information about it.
+                    <br><br>
+                    (3) Node colours represent communities that were detected by the Modularity algorithm in Gephi.
                     <h3>Network type</h3>
                     <form id="networkTypeRadio">
                         <input  id="networkTypeRadioA" type="radio" name="networktype" value="simple" onclick="showGraph('simple')" checked>
                         <div class="tooltip">
                             Citation coupling
                             <span class="tooltiptext">
-                                A directed graph. <br>
-                                The number of times authors cited each other.</span>
+                                A directed graph. The number of times a pair of authors cited each other.
+                                <br><br>
+                                If author A1 cited author A2 once, than the edge <u>A1 > A2 (1)</u> will be created.
+                                If A1 cited A2 twice, than the edge <u>A1 > A2 (2)</u> will be created. And so on.
+                                It is possible to cite the same author several times in a paper.
+                            </span>
                         </div>
                         <br>
                         <input id="networkTypeRadioB" type="radio" name="networktype" onclick="showGraph('abc')" value="bc">
                         <div class="tooltip">
                             Authors Bibliographic Coupling
-                            <span class="tooltiptext">An undirected graph.<br>
-                                A function of the shared references between authors based on Bibliographic Coupling</span>
+                            <span class="tooltiptext">
+                                An undirected graph. A function of the shared references between authors based on Bibliographic Coupling.
+                            </span>
                         </div>
                         <br>                        
                     </form>
@@ -237,12 +250,17 @@ and open the template in the editor.
                         <span id="min-degree-val">0</span>
                     </h3>
                     0 <input id="min-degree" min="0" max="34" value="0" type="range"> <span id="max-degree-value">34</span>
-                    <div>
-                        <br>
-                        <button id="reset-btn">Reset min. degree</button>
-                    </div>
-                    <h3>Label threshold 
+                    <!--<div>-->
+                        <!--<br>-->
+                        <!--<button id="reset-btn">Reset min. degree</button>-->
+                    <!--</div>-->
+                    <h3 class="tooltip">
+                        Authors labels threshold
+                        <span style="font-size: 14px; font-variant: normal; font-weight: normal;" class="tooltiptext">
+                            The engine's threshold number for displaying the labels. 
+                            An higher threshold will result in less labels being displayed.</span>
                     </h3>
+                    <br>
                     0 <input id="label-threshold-input" min="0" max="8" value="6" type="range"> 8
                 </div>
                 <span class="line"></span>
