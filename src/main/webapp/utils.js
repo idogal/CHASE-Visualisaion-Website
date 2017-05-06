@@ -1,13 +1,17 @@
 window.onload = function (event) {
     populateValues();
+    
+    showGraph("simple");
 };
 
 function displayDashboard() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
+    var aboutContainer = document.getElementById("about-and-contact-content");
     
     dashboardContainer.style.display = 'block';
     graphContainer.style.display = 'none';
+    aboutContainer.style.display = 'none';    
     
     var dashboardInnerHTML = dashboardContainer.innerHTML;
     if (dashboardInnerHTML === "") {
@@ -19,12 +23,25 @@ function displayDashboard() {
     }
 };
 
+function displayAboutAndContactPage() {
+    var dashboardContainer = document.getElementById("dashboardContent");
+    var graphContainer = document.getElementById("graphContainer");
+    var aboutContainer = document.getElementById("about-and-contact-content");
+    
+    dashboardContainer.style.display = 'none';
+    graphContainer.style.display = 'none';    
+    aboutContainer.style.display = 'block';    
+    
+}
+
 function displayNetwork() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
+    var aboutContainer = document.getElementById("about-and-contact-content");
     
     dashboardContainer.style.display = 'none';
     graphContainer.style.display = 'block';
+    aboutContainer.style.display = 'none';    
 
 };
 
@@ -107,23 +124,11 @@ var httpGetAsyncClient = function() {
         }
 
         xmlHttp.open( "GET", theUrl, true );            
-        xmlHttp.setRequestHeader("Ocp-Apim-Subscription-Key", "a6c3afc42b9d4d759d94367221a91af2");
+        xmlHttp.setRequestHeader("Ocp-Apim-Subscription-Key", "");
         xmlHttp.send( null );
     }
 }
 
-//function detectCoCitations(authorName) {
-//
-//    var authorPapersRefs = new Array();
-//
-//
-//    
-//    processCocitations(authorName, function (callback) {
-//        callback(processCocitations(authorName));
-//        console.log('Pass2');
-//    });
-//
-//}
 
 function processCocitations(authorName) {
     var authorPapersRefs = new Array();

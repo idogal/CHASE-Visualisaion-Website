@@ -8,6 +8,7 @@ and open the template in the editor.
     <head> 
         <title>The CHASE Workshop Analysis & Visualisation</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="resources/Knowledge Sharing-50.png" />
         
         <!-- Tableau functionality -->
 	<!--<script src="http://public.tableau.com/javascripts/api/tableau-2.min.js"></script>-->
@@ -29,6 +30,15 @@ and open the template in the editor.
 
         <!-- Styling -->
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+        
+        <script type="text/javascript">  
+            var appInsights=window.appInsights||function(config){    function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window, o = "script", s = "AuthenticatedUserContext", h = "start", c = "stop", l = "Track", a = l + "Event", v = l + "Page", y = u.createElement(o), r, f; y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js"; u.getElementsByTagName(o)[0].parentNode.appendChild(y); try{t.cookie = u.cookie} catch (p){}for (t.queue = [], t.version = "1.0", r = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; r.length; )i("track" + r.pop()); return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"), config.disableExceptionTracking || (r = "onerror", i("_" + r), f = e[r], e[r] = function(config, i, u, e, o){var s = f && f(config, i, u, e, o); return s !== !0 && t["_" + r](config, i, u, e, o), s}), t    }
+            (
+                    {        
+                        instrumentationKey:"63dfc553-a9fa-43c0-a7a2-31067bad88be",
+                        disableAjaxTracking: true
+                    }); window.appInsights = appInsights; appInsights.trackPageView();
+        </script>
     </head> 
 
     <body> 
@@ -39,7 +49,7 @@ and open the template in the editor.
                 font-family: Lato, sans-serif;
             }
             #graph-container {
-                height: calc(100% - 50px);
+                height: calc(99% - 50px);
                 width: calc(100% - 30px);
                 position: absolute;
             }
@@ -47,8 +57,8 @@ and open the template in the editor.
                 background-color: rgb(249, 247, 237);
                 box-shadow: 0 2px 6px rgba(0,0,0,0.3);
                 bottom: 3%;
-                left: calc(100% - 16% - 30px);
-                width: calc(16% - 10px);
+                left: calc(100% - 19% - 30px);
+                width: calc(19% - 10px);
                 position: absolute;
                 padding: 5px;                    
             }
@@ -65,9 +75,9 @@ and open the template in the editor.
             }                
             #control-pane {
                 top: calc(50px + 2%);
-                left: calc(100% - 16% - 30px);
+                left: calc(100% - 19% - 30px);
                 position: absolute;
-                width: 16%;
+                width: 19%;
                 background-color: rgb(249, 247, 237);
                 box-shadow: 0 2px 6px rgba(0,0,0,0.3);
                 max-height: 70%;
@@ -121,7 +131,7 @@ and open the template in the editor.
             }
             .tooltip .tooltiptext {
                 visibility: hidden;
-                width: 210px;
+                width: 195px;
                 background-color: #9370DB;
                 color: #fff;
                 text-align: left;
@@ -131,11 +141,11 @@ and open the template in the editor.
 
                 /* Position the tooltip */
                 position: absolute;
-                left: 3px;
+                left: 1px;
                 bottom: 5px;
                 z-index: auto;
                 
-                overflow: auto;
+                float: left;
             }
             .tooltip:hover .tooltiptext {
                 visibility: visible;
@@ -178,17 +188,50 @@ and open the template in the editor.
             .topnav a.active {
                 background-color: #9370DB;
                 color: white;
-            }            
+            }
+            
+            #about-and-contact-content {
+                width: 600px;
+                height: calc(100% - 150px);
+                position: absolute;
+                top: 100px;
+                left: calc(50% - 300px);
+                
+                font-size: 16px;
+                
+                display: none;
+            }
+            #about-and-contact-content > h2 {
+                color: #9370DB;
+            }
         </style>
 
-        <div class="topnav" id="myTopnav">
+        <nav class="topnav" id="myTopnav">
             <div>CHASE WORKSHOP</div>
-            <a id="authorsGraphBtn" onclick="displayNetwork()">Authors Network</a>
-            <a id="dashboardBtn" onclick="displayDashboard()">General Statistics Dashboard</a>
-        </div>
+            <a id="authorsGraphBtn" onclick="displayNetwork();appInsights.trackEvent('ViewChange', {ViewType: 'Network View'})">Authors Network</a>
+            <a id="dashboardBtn" onclick="displayDashboard();appInsights.trackEvent('ViewChange', {ViewType: 'Dashboard View'})">General Statistics Dashboard</a>
+            <!--<a id="aboutBtn" onclick="displayAboutAndContactPage()">About & Contact info.</a>-->
+        </nav>
+        
         <center>
             <div id="dashboardContent" style="padding: 5px;"></div>
         </center>
+        <div id="about-and-contact-content">
+            <h2>About</h2>
+            <p>
+            </p> 
+            <p>
+            </p>
+            <h2>Contact Information</h2>
+            <p>
+                You are welcome to share your thoughts and ideas with us.
+            </p> 
+            <p>
+                Please send an email message to:
+                <a href="mailto:ido_gal@outlook.com" target="_top">ido_gal@outlook.com</a>
+            </p>
+            
+        </div>
         <div id="graphContainer">             
             <div id="graph-container">
             </div>          
@@ -208,25 +251,31 @@ and open the template in the editor.
                 <div>
                     <!--<a href="http://chasevis.azurewebsites.net/tableau.html" target="_blank">Open the related Tableau dashboard</a>-->
                     <!--<br><br>-->
-                    (1) Click on a node to highlight it's neighbouring nodes.
-                    (2) Hover over an underlined menu elements to see more information about it.
+                    (1) Click on a node to highlight its neighbouring nodes.
                     <br><br>
-                    (3) Node colours represent communities that were detected by the Modularity algorithm in Gephi.
+                    (2) Hover over an underlined menu element to see more information about it.
+                    <br><br>
+                    (3) Node colours represent communities that were detected by the 
+                    <a href="https://github.com/gephi/gephi/wiki/Modularity" target=")blank">Modularity algorithm</a> in Gephi.
                     <h3>Network type</h3>
                     <form id="networkTypeRadio">
-                        <input  id="networkTypeRadioA" type="radio" name="networktype" value="simple" onclick="showGraph('simple')" checked>
+                        <input  id="networkTypeRadioA" type="radio" name="networktype" value="simple" 
+                                onclick="showGraph('simple');appInsights.trackEvent('NetworkTypeChange', {NetworkType: 'Simple'});" 
+                                checked>
                         <div class="tooltip">
                             Citation coupling
                             <span class="tooltiptext">
                                 A directed graph. The number of times a pair of authors cited each other.
                                 <br><br>
-                                If author A1 cited author A2 once, than the edge <u>A1 > A2 (1)</u> will be created.
-                                If A1 cited A2 twice, than the edge <u>A1 > A2 (2)</u> will be created. And so on.
+                                If author A cited author B once, than the edge <u>A > B (1)</u> will be created.
+                                If A cited B twice, than the edge <u>A > B (2)</u> will be created. And so on.
                                 It is possible to cite the same author several times in a paper.
                             </span>
                         </div>
                         <br>
-                        <input id="networkTypeRadioB" type="radio" name="networktype" onclick="showGraph('abc')" value="bc">
+                        <input id="networkTypeRadioB" type="radio" name="networktype" 
+                               onclick="showGraph('abc');appInsights.trackEvent('NetworkTypeChange', {NetworkType: 'ABC'});" 
+                               value="bc">
                         <div class="tooltip">
                             Authors Bibliographic Coupling
                             <span class="tooltiptext">
@@ -242,13 +291,18 @@ and open the template in the editor.
                     <div>
                         <br>
                         <!--<button id="apply-author-btn">Filter by author</button>-->
-                        <button id="reset-author-btn">Reset author</button>
+                        <button id="reset-author-btn" onclick="appInsights.trackEvent('BtnClick', {ButtonType: 'reset-author-btn'});">Reset author</button>
                     </div>                    
                 </div>
                 <div>
-                    <h3>Minimun degree 
+                    <h3 class="tooltip">
+                        Minimum degree 
                         <span id="min-degree-val">0</span>
+                        <span style="font-size: 14px; font-variant: normal; font-weight: normal;" class="tooltiptext">
+                            The degree of a node is the number of relations (edges) that it has. Only nodes with higher degree than the selected one will appear on screen.
+                        </span>
                     </h3>
+                    <br>
                     0 <input id="min-degree" min="0" max="34" value="0" type="range"> <span id="max-degree-value">34</span>
                     <!--<div>-->
                         <!--<br>-->
@@ -257,8 +311,10 @@ and open the template in the editor.
                     <h3 class="tooltip">
                         Authors labels threshold
                         <span style="font-size: 14px; font-variant: normal; font-weight: normal;" class="tooltiptext">
-                            The engine's threshold number for displaying the labels. 
-                            An higher threshold will result in less labels being displayed.</span>
+                            The engine's threshold number for displaying the author name labels. 
+                            The value is the minimum size a node must have on screen, in order to see its label displayed. 
+                            <br><br>
+                            A higher threshold will result in less labels being displayed.</span>
                     </h3>
                     <br>
                     0 <input id="label-threshold-input" min="0" max="8" value="6" type="range"> 8

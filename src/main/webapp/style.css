@@ -1,3 +1,61 @@
+body {
+    color: #333;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+}            
+h2, h3, h4 {
+    padding: 0;
+    font-variant: small-caps;
+}
+.green {
+    color: #437356;
+}
+.purple {
+    color: #9370DB
+}
+h2.underline {
+    color: #9370DB;
+    background: #f4f0e4;
+    margin: 0;
+    border-radius: 2px;
+    padding: 6px 6px;
+    font-weight: 700;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    font-variant: small-caps;
+
+}
+.topnav div {
+    float: left;
+    color: #9370DB;
+    text-align: center;
+    padding: 10px 10px;     
+    display: block;
+    font-size: 16px;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #9370DB;
+    color: black;
+}
 
 .mainDiv {
     width: auto;

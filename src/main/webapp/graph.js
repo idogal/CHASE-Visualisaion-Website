@@ -404,7 +404,7 @@ function initGraphFuncionality(s) {
                     , labels: true
                 });
         console.log(output);
-    }
+    }  
     
     var clickNodeHandler = s._handlers.clickNode;
     if (!clickNodeHandler) {
@@ -415,7 +415,24 @@ function initGraphFuncionality(s) {
             authorNameElement.value = node.label;
 
             executeHighlight(clickNodeEvent, node);
+            
+            var hostLocation = window.location.hostname;
+            if (hostLocation !== "localhost") {
+                var nodeInfo = new Object();
+                nodeInfo.AuthorName = node.label;
+                nodeInfo.AuthorID = node.id;
+                nodeInfo.NodeSize = node.size;
+                nodeInfo.NodeColour = node.color;
+                nodeInfo.GraphType = graphType;
+                appInsights.trackEvent('NodeClick', nodeInfo);                
+            }            
         });
+        
+        s.bind('clickStage', function(clickStageEvent) {
+           
+           resetAuthorFilter();
+            
+        });          
         
 //        s.bind('doubleClickNode', function(dblClickNodeEvent) {
 //           
@@ -464,5 +481,3 @@ sigma.classes.graph.addMethod('neighbors', function (nodeId) {
 
     return neighbors;
 });
-
-showGraph("simple");
