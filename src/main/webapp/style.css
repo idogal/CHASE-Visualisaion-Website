@@ -1,8 +1,67 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: #333;
     font-size: 14px;
     font-family: Lato, sans-serif;
-}            
+    height: 100%;
+    margin: 0;
+    padding: 10px 10px 10px 10px; 
+}
+
+#graph-container {
+    height: calc(99% - 50px);
+    width: calc(100% - 30px);
+    position: absolute;
+}
+#credits-box{
+    background-color: rgb(249, 247, 237);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    bottom: 3%;
+    left: calc(100% - 19% - 30px);
+    width: calc(19% - 10px);
+    position: absolute;
+    padding: 5px;                    
+}
+#details-pane {
+    top: calc(50px + 2%);
+    left: 30px;
+    position: absolute;
+    width: 17%;
+    padding: 5px;
+    background-color: rgb(249, 247, 237);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    max-height: 90%;
+    overflow: auto;
+}                
+#control-pane {
+    top: calc(50px + 2%);
+    left: calc(100% - 19% - 30px);
+    position: absolute;
+    width: 19%;
+    background-color: rgb(249, 247, 237);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    max-height: 70%;
+    overflow: auto;
+}
+#control-pane > div {
+    margin: 10px;
+    overflow-x: auto;
+    overflow: visible;
+}
+.line {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 0 0 0;
+    border-bottom: 1px solid #9370DB;
+    background: transparent;
+}
 h2, h3, h4 {
     padding: 0;
     font-variant: small-caps;
@@ -25,20 +84,51 @@ h2.underline {
     display: none;
     visibility: hidden;
 }
+
+input[type=range] {
+    width: 160px;
+}            
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 195px;
+    background-color: #9370DB;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 14px;
+
+    /* Position the tooltip */
+    position: absolute;
+    left: 1px;
+    bottom: 5px;
+    z-index: auto;
+
+    float: left;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
     font-variant: small-caps;
-
 }
 .topnav div {
     float: left;
     color: #9370DB;
     text-align: center;
-    padding: 10px 10px;     
+    padding: 10px 10px;
     display: block;
     font-size: 16px;
-
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -57,8 +147,37 @@ h2.underline {
     color: black;
 }
 
-.mainDiv {
-    width: auto;
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #9370DB;
+    color: white;
+}
+
+#about-and-contact-content {
+    width: 600px;
+    height: calc(100% - 150px);
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 300px);
+
+    font-size: 16px;
+
+    display: none;
+}
+#about-and-contact-content > h2 {
+    color: #9370DB;
+}
+
+
+#forumContent {
     height: 100%;
-    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#forum_embed {
+    height: calc(100% - 100px);
+    width: 100%;
 }

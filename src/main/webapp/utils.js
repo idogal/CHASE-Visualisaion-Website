@@ -7,11 +7,11 @@ window.onload = function (event) {
 function displayDashboard() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
-    var aboutContainer = document.getElementById("about-and-contact-content");
+    var dbContainer = document.getElementById("forumContent");
     
     dashboardContainer.style.display = 'block';
     graphContainer.style.display = 'none';
-    aboutContainer.style.display = 'none';    
+    dbContainer.style.display = 'none';    
     
     var dashboardInnerHTML = dashboardContainer.innerHTML;
     if (dashboardInnerHTML === "") {
@@ -26,18 +26,35 @@ function displayDashboard() {
 function displayAboutAndContactPage() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
-    var aboutContainer = document.getElementById("about-and-contact-content");
+    var dbContainer = document.getElementById("forumContent");
     
     dashboardContainer.style.display = 'none';
     graphContainer.style.display = 'none';    
-    aboutContainer.style.display = 'block';    
+    dbContainer.style.display = 'block';        
+}
+
+function displayGroups() {
+    var dashboardContainer = document.getElementById("dashboardContent");
+    var graphContainer = document.getElementById("graphContainer");
+    var dbContainer = document.getElementById("forumContent");
     
+    dashboardContainer.style.display = 'none';
+    graphContainer.style.display = 'none';    
+    dbContainer.style.display = 'block';
+    
+    var containerLength = $("#forum_embed").contents().find("body").length;
+    if (containerLength === 1) {
+        document.getElementById("forum_embed").src =
+           'https://groups.google.com/forum/embed/?place=forum/chase-workshop'
+           + '&showsearch=true&showpopout=true&showtabs=true'
+           + '&parenturl=' + encodeURIComponent(window.location.href);    
+    }    
 }
 
 function displayNetwork() {
     var dashboardContainer = document.getElementById("dashboardContent");
     var graphContainer = document.getElementById("graphContainer");
-    var aboutContainer = document.getElementById("about-and-contact-content");
+    var aboutContainer = document.getElementById("forumContent");
     
     dashboardContainer.style.display = 'none';
     graphContainer.style.display = 'block';

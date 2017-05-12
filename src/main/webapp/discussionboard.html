@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CHASE Discussion Board</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>        
+        <div>
+<!--            <iframe id="forum_embed"
+                    src="javascript:void(0)"
+                    scrolling="no"
+                    frameborder="0"
+                    width="900"
+                    height="700">
+            </iframe>-->
+            
+    <iframe id="forum_embed" 
+            src="https://groups.google.com/forum/embed/?place=forum/chase-workshop#!forum/chase-workshop" 
+            scrolling="no" 
+            frameborder="0" 
+            width="100%" 
+            height="100%">
+    </iframe>            
+            <script type="text/javascript">
+                document.getElementById('forum_embed').src =
+                        'https://groups.google.com/forum/embed/?place=forum/chase'
+                        + '&showsearch=true&showpopout=true&showtabs=true'
+                        + '&parenturl=' + encodeURIComponent(window.location.href);
+            </script>
+        </div>        
+    </body>
+
+
+
+  
+</html>
