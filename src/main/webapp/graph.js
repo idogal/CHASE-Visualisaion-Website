@@ -181,11 +181,13 @@ function getAuthorData(authorName) {
 }
 
 function showGraph(networkType) {
-    var pathToFile = "data/simple.gexf";
+//    var pathToFile = "data/simple.gexf";
+    var pathToFile = "data/simple_2017.gexf";
     graphType = "simple";
     
     if (networkType === "abc") {
-        pathToFile = "data/abc.gexf";
+//        pathToFile = "data/abc.gexf";
+        pathToFile = "data/abc_2017.gexf";
         graphType = "abc";
     }
     
@@ -222,6 +224,13 @@ function showGraph(networkType) {
             }
         );
     }; 
+    
+//    var degreeHtmlValue = document.getElementById("min-degree").value;
+//    var currentDegree = parseInt(degreeHtmlValue);
+//    
+//    if (currentDegree === 0 && networkType === "abc") {
+//        document.getElementById("min-degree").value = 1;
+//    }
     
     resetHtmlActions();
 }

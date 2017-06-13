@@ -1,4 +1,553 @@
-﻿<Authors_Publications>
+<Authors_Publications>
+  <Author_Publication>
+    <Paper_API_Id>10001</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Software development contracts: The impact of the provider’s risk of financial loss on project success 
+</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>magne jorgensen</Author_Name>
+    <Author_Id>-2043312970</Author_Id>
+    <All_Authors>magne jorgensen</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10002</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>A Preliminary Evaluation of a Gamification Framework to Jump Start Collaboration Behavior Change</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>fernando figueira filho</Author_Name>
+    <Author_Id>1395672471</Author_Id>
+    <All_Authors>fernando figueira filho</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10003</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Characterization of Autonomy and Interdependence in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>marcela p oliveira</Author_Name>
+    <Author_Id>1009295482</Author_Id>
+    <All_Authors>marcela p oliveira, karla m b silva, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10003</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Characterization of Autonomy and Interdependence in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>karla m b silva</Author_Name>
+    <Author_Id>-1759307554</Author_Id>
+    <All_Authors>marcela p oliveira, karla m b silva, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10003</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Characterization of Autonomy and Interdependence in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>itanaua f barbosa</Author_Name>
+    <Author_Id>-912210636</Author_Id>
+    <All_Authors>marcela p oliveira, karla m b silva, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10003</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Characterization of Autonomy and Interdependence in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>priscila b s reis</Author_Name>
+    <Author_Id>-1359303774</Author_Id>
+    <All_Authors>marcela p oliveira, karla m b silva, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10004</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Understanding the Relationships between Interdependence and Trust in Software Development: A Qualitative Research</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>tancicleide c s gomes</Author_Name>
+    <Author_Id>-311301181</Author_Id>
+    <All_Authors>tancicleide c s gomes, marcela p oliveira, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10004</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Understanding the Relationships between Interdependence and Trust in Software Development: A Qualitative Research</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>marcela p oliveira</Author_Name>
+    <Author_Id>1009295482</Author_Id>
+    <All_Authors>tancicleide c s gomes, marcela p oliveira, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10004</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Understanding the Relationships between Interdependence and Trust in Software Development: A Qualitative Research</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>itanaua f barbosa</Author_Name>
+    <Author_Id>-912210636</Author_Id>
+    <All_Authors>tancicleide c s gomes, marcela p oliveira, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10004</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Understanding the Relationships between Interdependence and Trust in Software Development: A Qualitative Research</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>priscila b s reis</Author_Name>
+    <Author_Id>-1359303774</Author_Id>
+    <All_Authors>tancicleide c s gomes, marcela p oliveira, itanaua f barbosa, priscila b s reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10005</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>ID3P: Iterative Data-Driven Development of Persona based on quantitative evaluation and revision</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>yasuhiro watanabe</Author_Name>
+    <Author_Id>1775726322</Author_Id>
+    <All_Authors>yasuhiro watanabe, hironori washizaki, aoi morizuki, hiroyuki shibata</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10005</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>ID3P: Iterative Data-Driven Development of Persona based on quantitative evaluation and revision</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>hironori washizaki</Author_Name>
+    <Author_Id>-1760068525</Author_Id>
+    <All_Authors>yasuhiro watanabe, hironori washizaki, aoi morizuki, hiroyuki shibata</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10005</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>ID3P: Iterative Data-Driven Development of Persona based on quantitative evaluation and revision</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>aoi morizuki</Author_Name>
+    <Author_Id>660356905</Author_Id>
+    <All_Authors>yasuhiro watanabe, hironori washizaki, aoi morizuki, hiroyuki shibata</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10005</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>ID3P: Iterative Data-Driven Development of Persona based on quantitative evaluation and revision</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>hiroyuki shibata</Author_Name>
+    <Author_Id>-1796620152</Author_Id>
+    <All_Authors>yasuhiro watanabe, hironori washizaki, aoi morizuki, hiroyuki shibata</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10006</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>A forth explanation to Brooks' Law - The aspect of group developmental psychology</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>lucas gren</Author_Name>
+    <Affiliation_Name>Chalmers University of Technology and, The University of Gothenburg</Affiliation_Name>
+    <Author_Id>1494204174</Author_Id>
+    <All_Authors>lucas gren</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10007</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Tailoring Gamification to Requirements Elicitation: A Stakeholder Centric Motivation Concept</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>martina z huber kolpondinos</Author_Name>
+    <Author_Id>-1932642990</Author_Id>
+    <All_Authors>martina z huber kolpondinos, martin glinz</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10007</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Tailoring Gamification to Requirements Elicitation: A Stakeholder Centric Motivation Concept</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>martin glinz</Author_Name>
+    <Author_Id>-1497414207</Author_Id>
+    <All_Authors>martina z huber kolpondinos, martin glinz</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10008</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Beyond dashboards: on the many facets of metrics and feedback in agile organizations</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>olivier liechti</Author_Name>
+    <Affiliation_Name>University of Applied Sciences and Arts Western Switzerland</Affiliation_Name>
+    <Author_Id>-102091183</Author_Id>
+    <All_Authors>olivier liechti, jacques pasquier, rodney reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10008</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Beyond dashboards: on the many facets of metrics and feedback in agile organizations</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>jacques pasquier</Author_Name>
+    <Affiliation_Name>Fribourg Univesity</Affiliation_Name>
+    <Author_Id>-95480960</Author_Id>
+    <All_Authors>olivier liechti, jacques pasquier, rodney reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10008</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Beyond dashboards: on the many facets of metrics and feedback in agile organizations</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>rodney reis</Author_Name>
+    <Affiliation_Name>Avalia Systems</Affiliation_Name>
+    <Author_Id>1487040052</Author_Id>
+    <All_Authors>olivier liechti, jacques pasquier, rodney reis</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>diana valenca pereira</Author_Name>
+    <Author_Id>-1081200776</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>george marsicano correa</Author_Name>
+    <Author_Id>1954334218</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>fabio q b da silva</Author_Name>
+    <Author_Id>-1272796965</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>danilo monteiro ribeiro</Author_Name>
+    <Author_Id>-809379657</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>diana valenca pereira</Author_Name>
+    <Author_Id>-1081149604</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10009</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Team Maturity in Software Engineering Teams: a Work in Progress</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>george marsicano correa</Author_Name>
+    <Author_Id>909952525</Author_Id>
+    <All_Authors>diana valenca pereira, george marsicano correa, fabio q b da silva, danilo monteiro ribeiro, diana valenca pereira, george marsicano correa</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10010</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Using Gamification to Orient and Motivate Students to Contribute to OSS projects</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>guilherme c diniz</Author_Name>
+    <Affiliation_Name>Computing Department Federal University of Technology - Parana? Campo Moura?o</Affiliation_Name>
+    <Author_Id>1821539489</Author_Id>
+    <All_Authors>guilherme c diniz, marco a graciotto silva, marco a gerosa, igor steinmacher</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10010</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Using Gamification to Orient and Motivate Students to Contribute to OSS projects</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>marco a graciotto silva</Author_Name>
+    <Affiliation_Name>Computing Department Federal University of Technology - Parana? Campo Moura?o</Affiliation_Name>
+    <Author_Id>1852492400</Author_Id>
+    <All_Authors>guilherme c diniz, marco a graciotto silva, marco a gerosa, igor steinmacher</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10010</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Using Gamification to Orient and Motivate Students to Contribute to OSS projects</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>marco a gerosa</Author_Name>
+    <Affiliation_Name>School of Informatics, Computing, and Cyber Systems Northern Arizona University Flagstaff</Affiliation_Name>
+    <Author_Id>-2130627956</Author_Id>
+    <All_Authors>guilherme c diniz, marco a graciotto silva, marco a gerosa, igor steinmacher</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10010</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Using Gamification to Orient and Motivate Students to Contribute to OSS projects</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>igor steinmacher</Author_Name>
+    <Affiliation_Name>Computing Department Federal University of Technology - Parana? Campo Moura?o</Affiliation_Name>
+    <Author_Id>753110391</Author_Id>
+    <All_Authors>guilherme c diniz, marco a graciotto silva, marco a gerosa, igor steinmacher</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10011</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Inadequate Testing, Time Pressure, and (Over) Confidence: A Tale from CI Users</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>gustavo pinto</Author_Name>
+    <Affiliation_Name>Federal Institute of Para ?</Affiliation_Name>
+    <Author_Id>-867292393</Author_Id>
+    <All_Authors>gustavo pinto, marcel reboucas, fernando castor</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10011</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Inadequate Testing, Time Pressure, and (Over) Confidence: A Tale from CI Users</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>marcel reboucas</Author_Name>
+    <Author_Id>-1215048592</Author_Id>
+    <All_Authors>gustavo pinto, marcel reboucas, fernando castor</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10011</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Inadequate Testing, Time Pressure, and (Over) Confidence: A Tale from CI Users</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>fernando castor</Author_Name>
+    <Affiliation_Name>Federal University of Pernambuco</Affiliation_Name>
+    <Author_Id>-1252794582</Author_Id>
+    <All_Authors>gustavo pinto, marcel reboucas, fernando castor</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10012</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Collaborating with Software Engineers: Perspectives from Non-Software Experts</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>paul luo li</Author_Name>
+    <Affiliation_Name>Microsoft</Affiliation_Name>
+    <Author_Id>1226950102</Author_Id>
+    <All_Authors>paul luo li, andrew j ko, andrew begel</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10012</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Collaborating with Software Engineers: Perspectives from Non-Software Experts</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>andrew j ko</Author_Name>
+    <Affiliation_Name>The Information School, University of Washington</Affiliation_Name>
+    <Author_Id>-749542892</Author_Id>
+    <All_Authors>paul luo li, andrew j ko, andrew begel</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10012</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Collaborating with Software Engineers: Perspectives from Non-Software Experts</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>andrew begel</Author_Name>
+    <Affiliation_Name>Microsoft Research</Affiliation_Name>
+    <Author_Id>-551918254</Author_Id>
+    <All_Authors>paul luo li, andrew j ko, andrew begel</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10013</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>The Tech-Talk Balance: What Technical Interviewers Expect from Technical Candidates</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>denae ford</Author_Name>
+    <Author_Id>-2030620695</Author_Id>
+    <All_Authors>denae ford, titus barik, leslie rand-pickett, chris parnin</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10013</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>The Tech-Talk Balance: What Technical Interviewers Expect from Technical Candidates</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>titus barik</Author_Name>
+    <Author_Id>-836765613</Author_Id>
+    <All_Authors>denae ford, titus barik, leslie rand-pickett, chris parnin</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10013</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>The Tech-Talk Balance: What Technical Interviewers Expect from Technical Candidates</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>leslie rand-pickett</Author_Name>
+    <Author_Id>137633700</Author_Id>
+    <All_Authors>denae ford, titus barik, leslie rand-pickett, chris parnin</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10013</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>The Tech-Talk Balance: What Technical Interviewers Expect from Technical Candidates</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>chris parnin</Author_Name>
+    <Author_Id>-1855977250</Author_Id>
+    <All_Authors>denae ford, titus barik, leslie rand-pickett, chris parnin</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10014</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Motivation for Self-Assignment: A Case Study of Factors Agile Developers Consider</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>zainab masood</Author_Name>
+    <Affiliation_Name>SEPTA Research, Department of Electrical and Computer Engineering, The University of Auckland Auckla</Affiliation_Name>
+    <Author_Id>390459053</Author_Id>
+    <All_Authors>zainab masood, rashina hoda, kelly blincoe</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10014</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Motivation for Self-Assignment: A Case Study of Factors Agile Developers Consider</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>rashina hoda</Author_Name>
+    <Affiliation_Name>SEPTA Research, Department of Electrical and Computer Engineering, The University of Auckland Auckla</Affiliation_Name>
+    <Author_Id>-741603622</Author_Id>
+    <All_Authors>zainab masood, rashina hoda, kelly blincoe</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10014</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Motivation for Self-Assignment: A Case Study of Factors Agile Developers Consider</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>kelly blincoe</Author_Name>
+    <Affiliation_Name>SEPTA Research, Department of Electrical and Computer Engineering, The University of Auckland Auckla</Affiliation_Name>
+    <Author_Id>-854820014</Author_Id>
+    <All_Authors>zainab masood, rashina hoda, kelly blincoe</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10015</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Intertemporal choices in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>christoph becker</Author_Name>
+    <Author_Id>-1323381649</Author_Id>
+    <All_Authors>christoph becker, dawn walker, curtis mccord</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10015</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Intertemporal choices in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>dawn walker</Author_Name>
+    <Author_Id>-2053712483</Author_Id>
+    <All_Authors>christoph becker, dawn walker, curtis mccord</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10015</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Intertemporal choices in Software Engineering</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>curtis mccord</Author_Name>
+    <Author_Id>256223152</Author_Id>
+    <All_Authors>christoph becker, dawn walker, curtis mccord</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10016</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>What do Developers want? An Advisor approach for Developer Priorities</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>vibhu saujanya sharma</Author_Name>
+    <Affiliation_Name>Accenture Labs</Affiliation_Name>
+    <Author_Id>-1800506840</Author_Id>
+    <All_Authors>vibhu saujanya sharma, rohit mehra, vikrant kaulgud</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10016</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>What do Developers want? An Advisor approach for Developer Priorities</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>rohit mehra</Author_Name>
+    <Affiliation_Name>Accenture Labs</Affiliation_Name>
+    <Author_Id>-662235505</Author_Id>
+    <All_Authors>vibhu saujanya sharma, rohit mehra, vikrant kaulgud</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10016</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>What do Developers want? An Advisor approach for Developer Priorities</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>vikrant kaulgud</Author_Name>
+    <Affiliation_Name>Accenture Labs</Affiliation_Name>
+    <Author_Id>915026210</Author_Id>
+    <All_Authors>vibhu saujanya sharma, rohit mehra, vikrant kaulgud</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10017</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Effective Teams for the Identification of Code Smells</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>rafael de mello</Author_Name>
+    <Affiliation_Name>Department of Informatics PUC-Rio Rio de Janeiro</Affiliation_Name>
+    <Author_Id>-2015879795</Author_Id>
+    <All_Authors>rafael de mello, roberto oliveira, leonardo sousa, alessandro garcia</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10017</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Effective Teams for the Identification of Code Smells</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>roberto oliveira</Author_Name>
+    <Affiliation_Name>Department of Informatics PUC-Rio Rio de Janeiro</Affiliation_Name>
+    <Author_Id>1513862153</Author_Id>
+    <All_Authors>rafael de mello, roberto oliveira, leonardo sousa, alessandro garcia</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10017</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Effective Teams for the Identification of Code Smells</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>leonardo sousa</Author_Name>
+    <Affiliation_Name>Department of Informatics PUC-Rio Rio de Janeiro</Affiliation_Name>
+    <Author_Id>1540798712</Author_Id>
+    <All_Authors>rafael de mello, roberto oliveira, leonardo sousa, alessandro garcia</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10017</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Towards Effective Teams for the Identification of Code Smells</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>alessandro garcia</Author_Name>
+    <Affiliation_Name>Department of Informatics PUC-Rio Rio de Janeiro</Affiliation_Name>
+    <Author_Id>-1484225177</Author_Id>
+    <All_Authors>rafael de mello, roberto oliveira, leonardo sousa, alessandro garcia</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10018</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Is it Possible to Disregard Obsolete Requirements? - An Initial Experiment on a Potentially New Bias in Software Effort Estimation</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>lucas gren</Author_Name>
+    <Affiliation_Name>Chalmers University of Technology and, The University of Gothenburg</Affiliation_Name>
+    <Author_Id>1494204174</Author_Id>
+    <All_Authors>lucas gren, richard berntsson svensson, michael unterkalmsteiner</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10018</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Is it Possible to Disregard Obsolete Requirements? - An Initial Experiment on a Potentially New Bias in Software Effort Estimation</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>richard berntsson svensson</Author_Name>
+    <Author_Id>1491416011</Author_Id>
+    <All_Authors>lucas gren, richard berntsson svensson, michael unterkalmsteiner</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10018</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Is it Possible to Disregard Obsolete Requirements? - An Initial Experiment on a Potentially New Bias in Software Effort Estimation</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>michael unterkalmsteiner</Author_Name>
+    <Author_Id>-440417666</Author_Id>
+    <All_Authors>lucas gren, richard berntsson svensson, michael unterkalmsteiner</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10019</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Patterns of Identity and Interaction in an Evolving Agile Workplace</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>shreya kumar</Author_Name>
+    <Affiliation_Name>Department of Computer Science and Engineering, University of Notre Dame</Affiliation_Name>
+    <Author_Id>1016304546</Author_Id>
+    <All_Authors>shreya kumar, charles wallace</All_Authors>
+  </Author_Publication>
+  <Author_Publication>
+    <Paper_API_Id>10019</Paper_API_Id>
+    <Paper_Year>2017</Paper_Year>
+    <Display_Name>Patterns of Identity and Interaction in an Evolving Agile Workplace</Display_Name>
+    <Venue_Short_Name>CHASE</Venue_Short_Name>
+    <Author_Name>charles wallace</Author_Name>
+    <Affiliation_Name>Department of Computer Science, Michigan Technological University</Affiliation_Name>
+    <Author_Id>-770525805</Author_Id>
+    <All_Authors>shreya kumar, charles wallace</All_Authors>
+  </Author_Publication>
   <Author_Publication>
     <Paper_API_Id>1963555928</Paper_API_Id>
     <Paper_Year>2008</Paper_Year>
