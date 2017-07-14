@@ -128,9 +128,9 @@ and open the template in the editor.
                 <!--<br><br>-->
                 (1) Click on a node to highlight its neighbouring nodes.
                 <br><br>
-                (2) Hover over an underlined menu element to see more information about it.
-                <br><br>
-                (3) Node colours represent communities that were detected by the 
+                <!-- (2) Hover over an underlined menu element to see more information about it.
+                <br><br>-->
+                (2) Node colours represent communities that were detected by the 
                 <a href="https://github.com/gephi/gephi/wiki/Modularity" target=")blank">Modularity algorithm</a> in Gephi.
                 <h3>Network type</h3>
                 <form id="networkTypeRadio">
@@ -168,8 +168,11 @@ and open the template in the editor.
                 <div>
                     <br>
                     <!--<button id="apply-author-btn">Filter by author</button>-->
-                    <button id="reset-author-btn" onclick="appInsights.trackEvent('BtnClick', {ButtonType: 'reset-author-btn'});">Reset author</button>
-                </div>                    
+                    <button id="reset-author-btn" onclick="appInsights.trackEvent('BtnClick', {ButtonType: 'reset-author-btn'});">Reset author</button>    
+                    <b style="color: red" id="reset-author-div">
+                    </b>                    
+                </div>
+
             </div>
             <div>
                 <h3 class="tooltip">

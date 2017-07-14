@@ -238,6 +238,7 @@ function showGraph(networkType) {
 function resetHtmlActions() {
     var authorNameElement = document.getElementById("authorName");
     var authorDetailsElement = document.getElementById("authors-details-paragraph");
+    document.getElementById("reset-author-div").innerHTML = "";
     
     if (authorNameElement !== null) {
         authorNameElement.value = "";
@@ -372,6 +373,7 @@ function initGraphFuncionality(s) {
         resetGraph();
         highlightNeighbours(event, node);
         getAuthorData(node.label);
+        document.getElementById("reset-author-div").innerHTML = "";
         
         s.refresh();
     }
@@ -381,7 +383,9 @@ function initGraphFuncionality(s) {
         var inputAuthorNode = getInputAuthorNode(inputAuthourName);
         
         if (typeof inputAuthorNode !== 'undefined') {
-            executeHighlight(event, inputAuthorNode)
+            executeHighlight(event, inputAuthorNode);
+        } else {
+            document.getElementById("reset-author-div").innerHTML = "Author wasn't found in the graph";
         }
     }
 
