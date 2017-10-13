@@ -3,6 +3,7 @@
 INSERT INTO Papers_Details (Paper_Id, Paper_API_Id, Paper_Order)
 	SELECT P.Paper_ID, P.Paper_ID, 1
 	FROM   [dbo].[Papers_Academic_Info] AS P
+	WHERE NOT EXISTS (SELECT * FROM Papers_Details AS Trgt WHERE P.Paper_ID = Trgt.Paper_API_Id)
 
 -- STEP B                                    --
 ----------------------------------------------- 
@@ -67,14 +68,13 @@ FROM
 ) AS X
 WHERE X.Paper_ID = Papers_Details.Paper_Id
 
-
 INSERT INTO Keywords (Paper_Id, Keyword_Value)
 	SELECT DISTINCT
 		   D.Paper_API_Id, Keywords.value
 	FROM   [dbo].[Papers_Academic_Info] AS P 
 		   INNER JOIN [dbo].Papers_Details AS D ON (P.Paper_ID = D.Paper_Id)
 		   CROSS APPLY OPENJSON([JSON_Acedemic_Info], '$.entities') AS Entities
-		   CROSS APPLY OPENJSON(Entities.value, '$.W') AS Keywords
+		   CROSS APPLY OPENJSON(Entities.value, '$.W') AS Keywords	
 
 INSERT INTO Authors 
             (Paper_Id, Author_Name, Author_Id, Affiliation_Name, Affiliation_Id, Author_Position)
@@ -90,7 +90,7 @@ INSERT INTO Authors
 				Affiliation_Name varchar(200) '$.AfN',
 				Affiliation_Id varchar(200) '$.AfId',
 				Author_Order INT '$.S'
-			 ) AS Authors
+			 ) AS Authors			 
 
 INSERT INTO Fields_Of_Study 
             (Paper_Id, Field_Id, Field_Name)
