@@ -9,7 +9,8 @@
 DECLARE A_CURSOR CURSOR
 FOR 
 	SELECT ANAME1, ANAME2
-	FROM   Authors_Pairs AS AP WHERE ANAME1 = 'meira levy' -- and ANAME2 = 'irit hadar'
+	FROM   Authors_Pairs AS AP;
+	-- WHERE ANAME1 = 'meira levy' and ANAME2 = 'irit hadar'
 
 DECLARE @ANAME1 VARCHAR(100), @ANAME2 VARCHAR(100);
 DECLARE @C INT = 1;

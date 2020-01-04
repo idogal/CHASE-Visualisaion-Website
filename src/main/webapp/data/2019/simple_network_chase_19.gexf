@@ -1,0 +1,3052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2020-01-04">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="a cesar c franca" label="a cesar c franca">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="148.4756" y="-32.55381"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="adrian schroter" label="adrian schroter">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-57.093246" y="693.77045"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="alberto bacchelli" label="alberto bacchelli">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-203.05371" y="-30.015867"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="alberto sillitti" label="alberto sillitti">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-68.464806" y="487.41873"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="alessandro garcia" label="alessandro garcia">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="241.99911" y="-369.59506"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="alex teterev" label="alex teterev">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-121.61248" y="559.32764"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="alexander boden" label="alexander boden">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-11.805834" y="255.65883"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="alexander egyed" label="alexander egyed">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-63.728916" y="720.1511"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="alexander serebrenik" label="alexander serebrenik">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="538.71356" y="-132.73363"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="ana paula chaves" label="ana paula chaves">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-646.0192" y="-11.750058"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="anderson uchoa" label="anderson uchoa">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="234.90456" y="-396.6526"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="andre van der hoek" label="andre van der hoek">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="20.002522" y="-759.7316"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="andrejs jermakovics" label="andrejs jermakovics">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-21.501928" y="518.3206"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="andrew begel" label="andrew begel">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-360.40112" y="408.10727"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="andrew j ko" label="andrew j ko">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-236.49823" y="265.60275"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="andriy miranskyy" label="andriy miranskyy">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-113.06672" y="509.34805"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="anita sarma" label="anita sarma">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-312.99524" y="-440.5413"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="anne philpott" label="anne philpott">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="34.149258" y="106.3525"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="antonio ritosilva" label="antonio ritosilva">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-651.49817" y="-526.79803"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="arber borici" label="arber borici">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-14.029818" y="659.41364"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="arnaud hubaux" label="arnaud hubaux">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-555.5981" y="664.53296"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="ayse bener" label="ayse bener">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-92.63638" y="608.79315"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="baldoino fonseca" label="baldoino fonseca">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="229.25177" y="-344.2227"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="baldvin gislason bern" label="baldvin gislason bern">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-127.81567" y="-329.65436"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="ban alani" label="ban alani">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-260.51334" y="-684.1338"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="barbara paech" label="barbara paech">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="779.61896" y="416.8901"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="bernhard nett" label="bernhard nett">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-17.39912" y="206.35759"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="bogdan vasilescu" label="bogdan vasilescu">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="547.9593" y="-170.05525"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="bora caglayan" label="bora caglayan">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-53.125973" y="558.8904"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="brian de alwis" label="brian de alwis">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-83.4902" y="-84.435776"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="carlos jensen" label="carlos jensen">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-228.00266" y="-671.4128"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="charles wallace" label="charles wallace">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-177.47957" y="-13.108344"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="chihiro uchida" label="chihiro uchida">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="380.5697" y="328.04395"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="christian bird" label="christian bird">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="19.784689"></viz:size>
+        <viz:position x="-649.4545" y="-453.66922"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="christian r prause" label="christian r prause">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="57.56444" y="-258.60303"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="christoph dorn" label="christoph dorn">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-23.240164" y="688.4433"></viz:position>
+        <viz:color r="0" g="186" b="121"></viz:color>
+      </node>
+      <node id="christoph treude" label="christoph treude">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-143.05415" y="-581.1758"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="christopher oezbek" label="christopher oezbek">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="595.33844" y="-955.7699"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="christopher poile" label="christopher poile">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.999999999999998"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="23.373207"></viz:size>
+        <viz:position x="-443.49402" y="465.8971"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="clarisse sieckenius de souza" label="clarisse sieckenius de souza">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-149.81575" y="-341.6631"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="cleidson r b de souza" label="cleidson r b de souza">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-112.36457" y="-610.33435"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="daniel oliveira" label="daniel oliveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="213.55403" y="-372.63675"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="davi viana dos santos" label="davi viana dos santos">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-212.6198" y="697.3642"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="david c shepherd" label="david c shepherd">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-44.27611" y="91.95992"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="david redmiles" label="david redmiles">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="17.4"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="35.813396"></viz:size>
+        <viz:position x="-428.3792" y="-191.91563"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="david socha" label="david socha">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="607.8393" y="-980.36804"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="edson fontes de oliveira" label="edson fontes de oliveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-105.32643" y="-340.85043"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="edson oliveira" label="edson oliveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-304.57605" y="94.79984"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="edward k smith" label="edward k smith">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-660.9465" y="-404.99057"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="elizabeth bjarnason" label="elizabeth bjarnason">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-249.03072" y="-63.11468"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="emerson murphyhill" label="emerson murphyhill">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-591.96405" y="-375.5903"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="emilia mendes" label="emilia mendes">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="61.475323" y="95.531204"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="erik trainer" label="erik trainer">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-330.0477" y="-701.2652"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="eva amdahl seim" label="eva amdahl seim">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-443.4175" y="418.07626"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="fabian fagerholm" label="fabian fagerholm">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="799.95435" y="-301.06393"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="fabio q b da silva" label="fabio q b da silva">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="212.50177" y="45.428024"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="fernanda de barcellos de mello" label="fernanda de barcellos de mello">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="261.97922" y="-349.9659"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="fernando castor" label="fernando castor">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-637.55005" y="-367.53085"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="fernando figueira filho" label="fernando figueira filho">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-73.91982" y="-604.9904"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="finn olav bjornson" label="finn olav bjornson">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-400.14008" y="463.12766"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="flavio steffens" label="flavio steffens">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-112.30431" y="-543.6727"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="francisco j s vasconcellos" label="francisco j s vasconcellos">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="242.03162" y="183.71742"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="francisco servant" label="francisco servant">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="386.4434" y="-895.7086"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="frank maurer" label="frank maurer">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-482.69086" y="713.20526"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="gabriela avram" label="gabriela avram">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-9.530925" y="230.48111"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="gail c murphy" label="gail c murphy">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.784689"></viz:size>
+        <viz:position x="-74.002625" y="60.2631"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="gautam shroff" label="gautam shroff">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="654.1665" y="-798.047"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="gerald bortis" label="gerald bortis">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="27.533731" y="-886.95984"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="giovanni viviani" label="giovanni viviani">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-291.59622" y="-90.45954"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="gleison dos santos souza" label="gleison dos santos souza">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-230.97086" y="76.99046"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="greg little" label="greg little">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.980862"></viz:size>
+        <viz:position x="439.02475" y="-909.9455"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="gustavo pinto" label="gustavo pinto">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-609.6167" y="-413.94995"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="hans van vliet" label="hans van vliet">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="397.8939" y="-211.44824"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="harald c gall" label="harald c gall">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-2.9466543" y="-856.62427"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="hataichanok unphon" label="hataichanok unphon">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-546.7741" y="727.38654"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="helen sharp" label="helen sharp">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="784.8911" y="-236.24646"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="helena barke" label="helena barke">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-268.0537" y="314.9415"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="hermano perrelli de moura" label="hermano perrelli de moura">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="382.58395" y="201.55734"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="hideaki hata" label="hideaki hata">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="-913.43896" y="4.550705"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="hina shah" label="hina shah">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="126.97297" y="-105.24466"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="hironori washizaki" label="hironori washizaki">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="432.0932" y="98.97301"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="hiroyuki shibata" label="hiroyuki shibata">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="332.9897" y="122.37991"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="igor scaliante wiese" label="igor scaliante wiese">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.4"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.066986"></viz:size>
+        <viz:position x="-545.2867" y="-131.35661"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="igor steinmacher" label="igor steinmacher">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.4"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="19.066986"></viz:size>
+        <viz:position x="-501.05588" y="-36.231445"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="irit hadar" label="irit hadar">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="-139.015" y="-641.7127"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="ivo krka" label="ivo krka">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-408.20544" y="429.22446"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="jacilane rabelo" label="jacilane rabelo">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-135.36429" y="124.34051"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="jacob o wobbrock" label="jacob o wobbrock">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-164.41238" y="237.92891"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="jae young bang" label="jae young bang">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-413.00327" y="391.6392"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="jailton coelho" label="jailton coelho">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5833333333333333"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-943.7164" y="10.629836"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="james a jones" label="james a jones">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="104.99171" y="-484.86288"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="james d herbsleb" label="james d herbsleb">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.625"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="442.53244" y="-938.22205"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="james noble" label="james noble">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-302.1436" y="244.0661"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="jeff winter" label="jeff winter">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-442.85684" y="-576.423"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="jianguo wang" label="jianguo wang">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-667.16943" y="-162.70177"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="jingdong jia" label="jingdong jia">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="177.57787" y="-50.121777"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="john grundy" label="john grundy">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.3333333333333335"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="17.791069"></viz:size>
+        <viz:position x="127.62457" y="-195.57434"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="john j harrison" label="john j harrison">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-133.19931" y="-665.31104"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="jonathan sillito" label="jonathan sillito">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-55.797478" y="-93.6925"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="jorge e camargo" label="jorge e camargo">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="153.7105" y="-195.3115"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="jose adson o g cunha" label="jose adson o g cunha">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="285.7891" y="546.8058"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="judith segal" label="judith segal">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="374.40695" y="-205.0037"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="julia schenk" label="julia schenk">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.5"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.598086"></viz:size>
+        <viz:position x="606.15405" y="-841.0401"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="jurgen munch" label="jurgen munch">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="780.5764" y="-271.55722"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="kari ronkko" label="kari ronkko">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-416.94186" y="-583.24884"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="karina kohl silveira" label="karina kohl silveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="523.84204" y="-156.24944"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="karl beecher" label="karl beecher">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.5"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.598086"></viz:size>
+        <viz:position x="653.6657" y="-857.845"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="katja kevic" label="katja kevic">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="31.339403" y="-836.991"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="kenichi matsumoto" label="kenichi matsumoto">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="15.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="32.94258"></viz:size>
+        <viz:position x="-841.66595" y="-10.743175"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="kentaro ogawa" label="kentaro ogawa">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="219.26501" y="369.31476"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="kevin sutanto" label="kevin sutanto">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="627.9053" y="-893.6172"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="kiminao kogiso" label="kiminao kogiso">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5384615384615384"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.619047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-880.5105" y="-21.82347"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="kiyoshi honda" label="kiyoshi honda">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="487.9696" y="297.36755"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="knut h rolland" label="knut h rolland">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-365.82104" y="458.4875"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="kurt schneider" label="kurt schneider">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="9.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="25.76555"></viz:size>
+        <viz:position x="824.6643" y="-261.40094"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="lars goran wallgren" label="lars goran wallgren">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.9999999999999998"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="17.392345"></viz:size>
+        <viz:position x="-37.644634" y="21.245893"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="lars goran wallgren tengberg" label="lars goran wallgren tengberg">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-61.638702" y="18.439308"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="lars lundberg" label="lars lundberg">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="25.559378" y="78.89302"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="lefteris angelis" label="lefteris angelis">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="42.37648" y="18.922411"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="leonardo sousa" label="leonardo sousa">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="332.76645" y="-395.75208"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="linda svedberg" label="linda svedberg">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.625"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="852.7887" y="-247.06613"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="lucas layman" label="lucas layman">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.999999999999999"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="-541.1411" y="586.0083"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="luciana lourdes silva" label="luciana lourdes silva">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5384615384615384"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.619047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-913.2997" y="-32.279663"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="luis carlos da silva braga" label="luis carlos da silva braga">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-467.8355" y="168.13678"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="luiz fernando capretz" label="luiz fernando capretz">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="128.92764" y="2.295649"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="lutz prechelt" label="lutz prechelt">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-289.13013" y="270.56332"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="marcel reboucas" label="marcel reboucas">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-577.5523" y="-294.0837"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="marco aurelio gerosa" label="marco aurelio gerosa">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.9"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.861244"></viz:size>
+        <viz:position x="-582.3641" y="-76.3229"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="marco tulio valente" label="marco tulio valente">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5384615384615384"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.619047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-872.9641" y="13.4065275"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="maria samuelsson" label="maria samuelsson">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="56.469593" y="-23.787294"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="maria woydich" label="maria woydich">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="796.2324" y="448.28387"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="marian petre" label="marian petre">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="16.196173"></viz:size>
+        <viz:position x="426.6912" y="-219.12622"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="mario luis guimaraes" label="mario luis guimaraes">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-597.00244" y="-617.66394"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="mark grechanik" label="mark grechanik">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="40.627453" y="-427.66064"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="markus eisenhauer" label="markus eisenhauer">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="52.793915" y="-281.20053"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="mary jean harrold" label="mary jean harrold">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="66.63888" y="-107.795586"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="masashi nakagawa" label="masashi nakagawa">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="568.82556" y="583.5999"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="mats hellman" label="mats hellman">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-423.9224" y="-556.9585"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="max goldman" label="max goldman">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="22.177032"></viz:size>
+        <viz:position x="423.74115" y="-812.9311"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="meira levy" label="meira levy">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-92.751" y="104.37365"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="michael kern" label="michael kern">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="815.33685" y="420.62158"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="michael wursch" label="michael wursch">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-40.477768" y="-949.8414"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="mikako ishigaki" label="mikako ishigaki">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="422.5428" y="597.26715"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="nachiappan nagappan" label="nachiappan nagappan">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.999999999999999"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="-480.32275" y="632.5702"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="naomi unkelosshpigel" label="naomi unkelosshpigel">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-100.57829" y="-575.79376"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="naveen kulkarni" label="naveen kulkarni">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-488.16434" y="563.98254"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="nenad medvidovic" label="nenad medvidovic">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-513.2042" y="510.44586"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="nilay oza" label="nilay oza">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="693.0112" y="-282.24457"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="nils brede moe" label="nils brede moe">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-447.42862" y="533.11487"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="norihito kitagawa" label="norihito kitagawa">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5384615384615384"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.619047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-896.73785" y="37.753788"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="olga liskin" label="olga liskin">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="726.8295" y="-268.64523"></viz:position>
+        <viz:color r="113" g="93" b="14"></viz:color>
+      </node>
+      <node id="orit hazzan" label="orit hazzan">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="24.569378"></viz:size>
+        <viz:position x="16.247929" y="-393.61203"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="oscar hernan parumapabon" label="oscar hernan parumapabon">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="122.37561" y="-221.07596"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="parmit k chilana" label="parmit k chilana">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-202.50645" y="206.2795"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="pekka abrahamsson" label="pekka abrahamsson">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="70.07141" y="5.4107537"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="pengnan zhang" label="pengnan zhang">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="98.42979" y="-50.172318"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="per lenberg" label="per lenberg">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.999999999999999"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="22.177032"></viz:size>
+        <viz:position x="-41.381542" y="-21.008474"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="petcharat viriyakattiyaporn" label="petcharat viriyakattiyaporn">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.611111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-41.83806" y="65.77335"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="peter johnson" label="peter johnson">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-172.5532" y="208.6889"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="prasun dewan" label="prasun dewan">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="765.0606" y="-694.51495"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="puneet agarwal" label="puneet agarwal">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="712.00854" y="-706.0485"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="rafael m de mello" label="rafael m de mello">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="307.25534" y="-420.95767"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="rafael maiani de mello" label="rafael maiani de mello">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="305.52167" y="-383.35757"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="rafael prikladnicki" label="rafael prikladnicki">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="562.99084" y="-146.52386"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="rajesh hegde" label="rajesh hegde">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="771.5512" y="-752.64166"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="richard torkar" label="richard torkar">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="9.716873" y="-64.95313"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="robert c miller" label="robert c miller">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="12.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="29.354067"></viz:size>
+        <viz:position x="524.00684" y="-767.4696"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="robert deline" label="robert deline">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-302.71814" y="-232.78447"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="robert feldt" label="robert feldt">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="30.55024"></viz:size>
+        <viz:position x="0.008740456" y="0.009552152"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="robert j walker" label="robert j walker">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-83.91656" y="-111.5361"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="robert loftin" label="robert loftin">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-552.60693" y="-591.35284"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="robert merkel" label="robert merkel">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333333"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.99681"></viz:size>
+        <viz:position x="48.464725" y="-135.47931"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="roberto oliveira" label="roberto oliveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="279.79977" y="-411.49222"></viz:position>
+        <viz:color r="78" g="178" b="255"></viz:color>
+      </node>
+      <node id="roger m ripley" label="roger m ripley">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-353.80292" y="-667.7498"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="rohit mehra" label="rohit mehra">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-26.973455" y="-200.70552"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="rosalba giuffrida" label="rosalba giuffrida">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-302.9571" y="-256.94748"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="sai datta vishnubhotla" label="sai datta vishnubhotla">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="10.273598" y="123.185265"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="sanjay podder" label="sanjay podder">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-48.861916" y="-188.43349"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="satiyo shiizaki" label="satiyo shiizaki">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="278.81403" y="281.2179"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="saya onoue" label="saya onoue">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-529.14325" y="-86.003174"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="sebastian muller" label="sebastian muller">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-3.7046223" y="-923.3744"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="shaun phillips" label="shaun phillips">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-52.71606" y="-120.40114"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="sherlock a licorish" label="sherlock a licorish">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="61.56925" y="135.11372"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="shreya kumar" label="shreya kumar">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.86"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-157.7509" y="51.65329"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="sofia sherman" label="sofia sherman">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-162.56392" y="-647.6697"></viz:position>
+        <viz:color r="208" g="190" b="161"></viz:color>
+      </node>
+      <node id="soroush ghorashi" label="soroush ghorashi">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9285714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-313.65942" y="-648.5197"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="srinivas padmanabhuni" label="srinivas padmanabhuni">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-429.87866" y="583.5729"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="stephan salinger" label="stephan salinger">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="744.284" y="-726.70245"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="stephen forshaw" label="stephen forshaw">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5833333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6428571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-12.257744" y="-32.499847"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="stephen g macdonell" label="stephen g macdonell">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="40.73872" y="146.8714"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="taiki todo" label="taiki todo">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-553.2551" y="-44.087067"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="tanjila kanij" label="tanjila kanij">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333333"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.99681"></viz:size>
+        <viz:position x="92.88905" y="-131.357"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="tayana conte" label="tayana conte">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6341463414634146"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="20.9"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-198.06133" y="-141.56746"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="teppei yamaguchi" label="teppei yamaguchi">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="331.3719" y="436.63336"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="thomas d latoza" label="thomas d latoza">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5652173913043478"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6153846153846154"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="472.64963" y="-817.4307"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="thomas fritz" label="thomas fritz">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-38.743313" y="-898.21356"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="thomas zimmermann" label="thomas zimmermann">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8461538461538461"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9090909090909091"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-551.44116" y="-519.1538"></viz:position>
+        <viz:color r="0" g="208" b="251"></viz:color>
+      </node>
+      <node id="tomoaki yagi" label="tomoaki yagi">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="588.6918" y="432.40527"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="tore dyba" label="tore dyba">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-694.7655" y="623.84546"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="torgeir dingsoyr" label="torgeir dingsoyr">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.999999999999999"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="23.373207"></viz:size>
+        <viz:position x="-620.76514" y="589.11273"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="ulrike abelein" label="ulrike abelein">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="789.8324" y="367.523"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="vibhu saujanya sharma" label="vibhu saujanya sharma">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-14.5763855" y="-226.7448"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="victor l de oliveira" label="victor l de oliveira">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.47368421052631576"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-671.34375" y="611.4664"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="victoria shipp" label="victoria shipp">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-199.67677" y="240.9307"></viz:position>
+        <viz:color r="255" g="140" b="0"></viz:color>
+      </node>
+      <node id="vikrant kaulgud" label="vikrant kaulgud">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1.5557268" y="-205.01204"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="vladimir kovalenko" label="vladimir kovalenko">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.42424242424242425"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5089285714285715"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-429.85953" y="-100.007256"></viz:position>
+        <viz:color r="68" g="80" b="105"></viz:color>
+      </node>
+      <node id="w ben towne" label="w ben towne">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5652173913043478"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6153846153846154"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="451.6275" y="-858.1566"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="xiaofeng wang" label="xiaofeng wang">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="23.330246" y="-33.252377"></viz:position>
+        <viz:color r="255" g="92" b="125"></viz:color>
+      </node>
+      <node id="yael dubinsky" label="yael dubinsky">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="53.83685" y="-463.86774"></viz:position>
+        <viz:color r="122" g="204" b="0"></viz:color>
+      </node>
+      <node id="yasuhiro watanabe" label="yasuhiro watanabe">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="474.24753" y="471.38553"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="yoshiaki fukazawa" label="yoshiaki fukazawa">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="594.95807" y="164.53539"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="yuki noyori" label="yuki noyori">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="655.6031" y="281.89203"></viz:position>
+        <viz:color r="255" g="125" b="255"></viz:color>
+      </node>
+      <node id="yvonne dittrich" label="yvonne dittrich">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-308.2582" y="-209.2596"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1" source="alexander egyed" target="adrian schroter"></edge>
+      <edge id="2" source="anderson uchoa" target="alessandro garcia"></edge>
+      <edge id="3" source="andriy miranskyy" target="adrian schroter"></edge>
+      <edge id="4" source="andriy miranskyy" target="alberto sillitti"></edge>
+      <edge id="5" source="andriy miranskyy" target="alex teterev"></edge>
+      <edge id="6" source="andriy miranskyy" target="andrew begel"></edge>
+      <edge id="7" source="andriy miranskyy" target="andrejs jermakovics"></edge>
+      <edge id="8" source="ayse bener" target="andrew begel"></edge>
+      <edge id="9" source="ayse bener" target="andrejs jermakovics"></edge>
+      <edge id="10" source="ayse bener" target="andriy miranskyy"></edge>
+      <edge id="11" source="ayse bener" target="adrian schroter"></edge>
+      <edge id="12" source="ayse bener" target="arber borici"></edge>
+      <edge id="13" source="ayse bener" target="alex teterev"></edge>
+      <edge id="14" source="ayse bener" target="alberto sillitti"></edge>
+      <edge id="15" source="baldoino fonseca" target="alessandro garcia"></edge>
+      <edge id="16" source="bora caglayan" target="arber borici"></edge>
+      <edge id="17" source="bora caglayan" target="alex teterev"></edge>
+      <edge id="18" source="bora caglayan" target="ayse bener"></edge>
+      <edge id="19" source="bora caglayan" target="andriy miranskyy"></edge>
+      <edge id="20" source="bora caglayan" target="andrejs jermakovics"></edge>
+      <edge id="21" source="bora caglayan" target="andrew begel"></edge>
+      <edge id="22" source="bora caglayan" target="alberto sillitti"></edge>
+      <edge id="23" source="bora caglayan" target="adrian schroter"></edge>
+      <edge id="24" source="carlos jensen" target="ban alani"></edge>
+      <edge id="25" source="carlos jensen" target="andre van der hoek"></edge>
+      <edge id="26" source="carlos jensen" target="anita sarma"></edge>
+      <edge id="27" source="charles wallace" target="alberto bacchelli"></edge>
+      <edge id="28" source="christian bird" target="antonio ritosilva"></edge>
+      <edge id="29" source="christoph dorn" target="arber borici"></edge>
+      <edge id="30" source="christoph dorn" target="adrian schroter"></edge>
+      <edge id="31" source="christopher poile" target="arnaud hubaux"></edge>
+      <edge id="32" source="christopher poile" target="andrew begel"></edge>
+      <edge id="33" source="clarisse sieckenius de souza" target="baldvin gislason bern"></edge>
+      <edge id="34" source="daniel oliveira" target="alessandro garcia"></edge>
+      <edge id="35" source="david redmiles" target="ana paula chaves"></edge>
+      <edge id="36" source="david redmiles" target="anita sarma"></edge>
+      <edge id="37" source="david socha" target="christopher oezbek"></edge>
+      <edge id="38" source="edson fontes de oliveira" target="baldvin gislason bern"></edge>
+      <edge id="39" source="edward k smith" target="christian bird"></edge>
+      <edge id="40" source="emilia mendes" target="anne philpott"></edge>
+      <edge id="41" source="eva amdahl seim" target="andrew begel"></edge>
+      <edge id="42" source="eva amdahl seim" target="christopher poile"></edge>
+      <edge id="43" source="fernanda de barcellos de mello" target="alessandro garcia"></edge>
+      <edge id="44" source="fernando castor" target="emerson murphyhill"></edge>
+      <edge id="45" source="fernando castor" target="david redmiles"></edge>
+      <edge id="46" source="fernando castor" target="edward k smith"></edge>
+      <edge id="47" source="fernando castor" target="christian bird"></edge>
+      <edge id="48" source="finn olav bjornson" target="christopher poile"></edge>
+      <edge id="49" source="finn olav bjornson" target="andrew begel"></edge>
+      <edge id="50" source="gabriela avram" target="bernhard nett"></edge>
+      <edge id="51" source="gabriela avram" target="alexander boden"></edge>
+      <edge id="52" source="gail c murphy" target="alberto bacchelli"></edge>
+      <edge id="53" source="gail c murphy" target="david redmiles"></edge>
+      <edge id="54" source="gail c murphy" target="david c shepherd"></edge>
+      <edge id="55" source="giovanni viviani" target="david redmiles"></edge>
+      <edge id="56" source="giovanni viviani" target="alberto bacchelli"></edge>
+      <edge id="57" source="greg little" target="christopher oezbek"></edge>
+      <edge id="58" source="greg little" target="francisco servant"></edge>
+      <edge id="59" source="greg little" target="andre van der hoek"></edge>
+      <edge id="60" source="gustavo pinto" target="emerson murphyhill"></edge>
+      <edge id="61" source="gustavo pinto" target="christian bird"></edge>
+      <edge id="62" source="gustavo pinto" target="edward k smith"></edge>
+      <edge id="63" source="gustavo pinto" target="david redmiles"></edge>
+      <edge id="64" source="harald c gall" target="andre van der hoek"></edge>
+      <edge id="65" source="harald c gall" target="gerald bortis"></edge>
+      <edge id="66" source="helena barke" target="andrew begel"></edge>
+      <edge id="67" source="helena barke" target="andrew j ko"></edge>
+      <edge id="68" source="hideaki hata" target="ana paula chaves"></edge>
+      <edge id="69" source="hideaki hata" target="david redmiles"></edge>
+      <edge id="70" source="hironori washizaki" target="fabio q b da silva"></edge>
+      <edge id="71" source="hironori washizaki" target="hermano perrelli de moura"></edge>
+      <edge id="72" source="hironori washizaki" target="barbara paech"></edge>
+      <edge id="73" source="hironori washizaki" target="chihiro uchida"></edge>
+      <edge id="74" source="hironori washizaki" target="francisco j s vasconcellos"></edge>
+      <edge id="75" source="hiroyuki shibata" target="fabio q b da silva"></edge>
+      <edge id="76" source="hiroyuki shibata" target="chihiro uchida"></edge>
+      <edge id="77" source="hiroyuki shibata" target="barbara paech"></edge>
+      <edge id="78" source="hiroyuki shibata" target="hironori washizaki"></edge>
+      <edge id="79" source="hiroyuki shibata" target="francisco j s vasconcellos"></edge>
+      <edge id="80" source="hiroyuki shibata" target="hermano perrelli de moura"></edge>
+      <edge id="81" source="igor scaliante wiese" target="anita sarma"></edge>
+      <edge id="82" source="igor scaliante wiese" target="ana paula chaves"></edge>
+      <edge id="83" source="igor steinmacher" target="ana paula chaves"></edge>
+      <edge id="84" source="igor steinmacher" target="igor scaliante wiese"></edge>
+      <edge id="85" source="igor steinmacher" target="anita sarma"></edge>
+      <edge id="86" source="irit hadar" target="flavio steffens"></edge>
+      <edge id="87" source="irit hadar" target="cleidson r b de souza"></edge>
+      <edge id="88" source="irit hadar" target="fernando figueira filho"></edge>
+      <edge id="89" source="irit hadar" target="christoph treude"></edge>
+      <edge id="90" source="ivo krka" target="andrew begel"></edge>
+      <edge id="91" source="ivo krka" target="christopher poile"></edge>
+      <edge id="92" source="jae young bang" target="andrew begel"></edge>
+      <edge id="93" source="jae young bang" target="christopher poile"></edge>
+      <edge id="94" source="jailton coelho" target="hideaki hata"></edge>
+      <edge id="95" source="james d herbsleb" target="greg little"></edge>
+      <edge id="96" source="jingdong jia" target="fabio q b da silva"></edge>
+      <edge id="97" source="jingdong jia" target="hina shah"></edge>
+      <edge id="98" source="jingdong jia" target="a cesar c franca"></edge>
+      <edge id="99" source="john grundy" target="hina shah"></edge>
+      <edge id="100" source="john j harrison" target="irit hadar" weight="2.0"></edge>
+      <edge id="101" source="jonathan sillito" target="brian de alwis"></edge>
+      <edge id="102" source="jorge e camargo" target="john grundy"></edge>
+      <edge id="103" source="judith segal" target="hans van vliet"></edge>
+      <edge id="104" source="julia schenk" target="gautam shroff"></edge>
+      <edge id="105" source="jurgen munch" target="fabian fagerholm"></edge>
+      <edge id="106" source="jurgen munch" target="helen sharp"></edge>
+      <edge id="107" source="kari ronkko" target="jeff winter"></edge>
+      <edge id="108" source="karina kohl silveira" target="alexander serebrenik"></edge>
+      <edge id="109" source="karina kohl silveira" target="bogdan vasilescu"></edge>
+      <edge id="110" source="karl beecher" target="gautam shroff"></edge>
+      <edge id="111" source="katja kevic" target="harald c gall"></edge>
+      <edge id="112" source="katja kevic" target="andre van der hoek"></edge>
+      <edge id="113" source="katja kevic" target="gerald bortis"></edge>
+      <edge id="114" source="kenichi matsumoto" target="igor steinmacher" weight="2.0"></edge>
+      <edge id="115" source="kenichi matsumoto" target="david redmiles"></edge>
+      <edge id="116" source="kenichi matsumoto" target="hideaki hata"></edge>
+      <edge id="117" source="kenichi matsumoto" target="ana paula chaves"></edge>
+      <edge id="118" source="kenichi matsumoto" target="igor scaliante wiese" weight="2.0"></edge>
+      <edge id="119" source="kentaro ogawa" target="chihiro uchida"></edge>
+      <edge id="120" source="kentaro ogawa" target="hironori washizaki"></edge>
+      <edge id="121" source="kentaro ogawa" target="jose adson o g cunha"></edge>
+      <edge id="122" source="kentaro ogawa" target="francisco j s vasconcellos"></edge>
+      <edge id="123" source="kentaro ogawa" target="fabio q b da silva"></edge>
+      <edge id="124" source="kentaro ogawa" target="barbara paech"></edge>
+      <edge id="125" source="kentaro ogawa" target="hermano perrelli de moura"></edge>
+      <edge id="126" source="kevin sutanto" target="karl beecher"></edge>
+      <edge id="127" source="kevin sutanto" target="christopher oezbek"></edge>
+      <edge id="128" source="kevin sutanto" target="julia schenk"></edge>
+      <edge id="129" source="kiminao kogiso" target="kenichi matsumoto"></edge>
+      <edge id="130" source="kiminao kogiso" target="hideaki hata"></edge>
+      <edge id="131" source="kiyoshi honda" target="chihiro uchida"></edge>
+      <edge id="132" source="kiyoshi honda" target="kentaro ogawa"></edge>
+      <edge id="133" source="kiyoshi honda" target="hironori washizaki"></edge>
+      <edge id="134" source="kiyoshi honda" target="francisco j s vasconcellos"></edge>
+      <edge id="135" source="kiyoshi honda" target="barbara paech"></edge>
+      <edge id="136" source="kiyoshi honda" target="hermano perrelli de moura"></edge>
+      <edge id="137" source="kiyoshi honda" target="jose adson o g cunha"></edge>
+      <edge id="138" source="kiyoshi honda" target="fabio q b da silva"></edge>
+      <edge id="139" source="knut h rolland" target="andrew begel"></edge>
+      <edge id="140" source="knut h rolland" target="christopher poile"></edge>
+      <edge id="141" source="kurt schneider" target="fabian fagerholm"></edge>
+      <edge id="142" source="kurt schneider" target="jurgen munch"></edge>
+      <edge id="143" source="kurt schneider" target="helen sharp"></edge>
+      <edge id="144" source="lars goran wallgren" target="anne philpott"></edge>
+      <edge id="145" source="lars goran wallgren tengberg" target="lars goran wallgren" weight="2.0"></edge>
+      <edge id="146" source="lars lundberg" target="anne philpott"></edge>
+      <edge id="147" source="linda svedberg" target="kurt schneider"></edge>
+      <edge id="148" source="lucas layman" target="arnaud hubaux"></edge>
+      <edge id="149" source="lucas layman" target="hataichanok unphon"></edge>
+      <edge id="150" source="lucas layman" target="frank maurer"></edge>
+      <edge id="151" source="lucas layman" target="andrew begel"></edge>
+      <edge id="152" source="luciana lourdes silva" target="kenichi matsumoto"></edge>
+      <edge id="153" source="luciana lourdes silva" target="hideaki hata"></edge>
+      <edge id="154" source="luiz fernando capretz" target="hina shah"></edge>
+      <edge id="155" source="luiz fernando capretz" target="lefteris angelis"></edge>
+      <edge id="156" source="luiz fernando capretz" target="fabio q b da silva"></edge>
+      <edge id="157" source="luiz fernando capretz" target="a cesar c franca"></edge>
+      <edge id="158" source="lutz prechelt" target="andrew j ko"></edge>
+      <edge id="159" source="lutz prechelt" target="james noble"></edge>
+      <edge id="160" source="lutz prechelt" target="andrew begel"></edge>
+      <edge id="161" source="marcel reboucas" target="david redmiles"></edge>
+      <edge id="162" source="marcel reboucas" target="igor scaliante wiese"></edge>
+      <edge id="163" source="marcel reboucas" target="edward k smith"></edge>
+      <edge id="164" source="marcel reboucas" target="christian bird"></edge>
+      <edge id="165" source="marcel reboucas" target="emerson murphyhill"></edge>
+      <edge id="166" source="marcel reboucas" target="igor steinmacher"></edge>
+      <edge id="167" source="marco aurelio gerosa" target="ana paula chaves"></edge>
+      <edge id="168" source="marco aurelio gerosa" target="igor steinmacher"></edge>
+      <edge id="169" source="marco aurelio gerosa" target="jianguo wang"></edge>
+      <edge id="170" source="marco aurelio gerosa" target="anita sarma"></edge>
+      <edge id="171" source="marco aurelio gerosa" target="igor scaliante wiese"></edge>
+      <edge id="172" source="marco tulio valente" target="hideaki hata"></edge>
+      <edge id="173" source="marco tulio valente" target="kenichi matsumoto"></edge>
+      <edge id="174" source="maria woydich" target="barbara paech"></edge>
+      <edge id="175" source="marian petre" target="hans van vliet"></edge>
+      <edge id="176" source="markus eisenhauer" target="christian r prause"></edge>
+      <edge id="177" source="mats hellman" target="kari ronkko"></edge>
+      <edge id="178" source="mats hellman" target="jeff winter"></edge>
+      <edge id="179" source="max goldman" target="james a jones"></edge>
+      <edge id="180" source="max goldman" target="francisco servant"></edge>
+      <edge id="181" source="max goldman" target="andre van der hoek"></edge>
+      <edge id="182" source="max goldman" target="karl beecher"></edge>
+      <edge id="183" source="max goldman" target="christopher oezbek"></edge>
+      <edge id="184" source="max goldman" target="gautam shroff"></edge>
+      <edge id="185" source="max goldman" target="julia schenk"></edge>
+      <edge id="186" source="michael kern" target="barbara paech"></edge>
+      <edge id="187" source="mikako ishigaki" target="hironori washizaki"></edge>
+      <edge id="188" source="mikako ishigaki" target="hermano perrelli de moura"></edge>
+      <edge id="189" source="mikako ishigaki" target="kentaro ogawa"></edge>
+      <edge id="190" source="mikako ishigaki" target="barbara paech"></edge>
+      <edge id="191" source="mikako ishigaki" target="kiyoshi honda"></edge>
+      <edge id="192" source="mikako ishigaki" target="chihiro uchida"></edge>
+      <edge id="193" source="mikako ishigaki" target="fabio q b da silva"></edge>
+      <edge id="194" source="mikako ishigaki" target="jose adson o g cunha"></edge>
+      <edge id="195" source="mikako ishigaki" target="francisco j s vasconcellos"></edge>
+      <edge id="196" source="mikako ishigaki" target="masashi nakagawa"></edge>
+      <edge id="197" source="nachiappan nagappan" target="arnaud hubaux"></edge>
+      <edge id="198" source="nachiappan nagappan" target="hataichanok unphon"></edge>
+      <edge id="199" source="nachiappan nagappan" target="andrew begel"></edge>
+      <edge id="200" source="nachiappan nagappan" target="frank maurer"></edge>
+      <edge id="201" source="naomi unkelosshpigel" target="christoph treude"></edge>
+      <edge id="202" source="naomi unkelosshpigel" target="fernando figueira filho"></edge>
+      <edge id="203" source="naomi unkelosshpigel" target="cleidson r b de souza"></edge>
+      <edge id="204" source="naomi unkelosshpigel" target="flavio steffens"></edge>
+      <edge id="205" source="naveen kulkarni" target="lucas layman"></edge>
+      <edge id="206" source="naveen kulkarni" target="nachiappan nagappan"></edge>
+      <edge id="207" source="naveen kulkarni" target="christopher poile"></edge>
+      <edge id="208" source="naveen kulkarni" target="andrew begel"></edge>
+      <edge id="209" source="nenad medvidovic" target="lucas layman"></edge>
+      <edge id="210" source="nenad medvidovic" target="christopher poile"></edge>
+      <edge id="211" source="nenad medvidovic" target="andrew begel"></edge>
+      <edge id="212" source="nenad medvidovic" target="nachiappan nagappan"></edge>
+      <edge id="213" source="nils brede moe" target="christopher poile"></edge>
+      <edge id="214" source="nils brede moe" target="nachiappan nagappan"></edge>
+      <edge id="215" source="nils brede moe" target="andrew begel"></edge>
+      <edge id="216" source="nils brede moe" target="lucas layman"></edge>
+      <edge id="217" source="norihito kitagawa" target="hideaki hata"></edge>
+      <edge id="218" source="norihito kitagawa" target="kenichi matsumoto"></edge>
+      <edge id="219" source="olga liskin" target="helen sharp"></edge>
+      <edge id="220" source="olga liskin" target="nilay oza"></edge>
+      <edge id="221" source="olga liskin" target="fabian fagerholm"></edge>
+      <edge id="222" source="olga liskin" target="jurgen munch"></edge>
+      <edge id="223" source="olga liskin" target="marian petre"></edge>
+      <edge id="224" source="orit hazzan" target="james a jones"></edge>
+      <edge id="225" source="orit hazzan" target="andrew begel"></edge>
+      <edge id="226" source="orit hazzan" target="andre van der hoek"></edge>
+      <edge id="227" source="orit hazzan" target="mark grechanik"></edge>
+      <edge id="228" source="oscar hernan parumapabon" target="john grundy"></edge>
+      <edge id="229" source="pekka abrahamsson" target="lefteris angelis"></edge>
+      <edge id="230" source="pekka abrahamsson" target="maria samuelsson"></edge>
+      <edge id="231" source="pengnan zhang" target="lefteris angelis"></edge>
+      <edge id="232" source="pengnan zhang" target="hina shah"></edge>
+      <edge id="233" source="pengnan zhang" target="fabio q b da silva"></edge>
+      <edge id="234" source="pengnan zhang" target="a cesar c franca"></edge>
+      <edge id="235" source="pengnan zhang" target="maria samuelsson"></edge>
+      <edge id="236" source="pengnan zhang" target="mary jean harrold"></edge>
+      <edge id="237" source="per lenberg" target="anne philpott"></edge>
+      <edge id="238" source="per lenberg" target="lars goran wallgren" weight="2.0"></edge>
+      <edge id="239" source="per lenberg" target="lefteris angelis"></edge>
+      <edge id="240" source="per lenberg" target="maria samuelsson"></edge>
+      <edge id="241" source="petcharat viriyakattiyaporn" target="gail c murphy"></edge>
+      <edge id="242" source="petcharat viriyakattiyaporn" target="david c shepherd"></edge>
+      <edge id="243" source="peter johnson" target="andrew j ko"></edge>
+      <edge id="244" source="peter johnson" target="jacob o wobbrock"></edge>
+      <edge id="245" source="peter johnson" target="parmit k chilana"></edge>
+      <edge id="246" source="rafael maiani de mello" target="rafael m de mello"></edge>
+      <edge id="247" source="rafael maiani de mello" target="alessandro garcia"></edge>
+      <edge id="248" source="rafael maiani de mello" target="leonardo sousa"></edge>
+      <edge id="249" source="rafael prikladnicki" target="bogdan vasilescu"></edge>
+      <edge id="250" source="rafael prikladnicki" target="alexander serebrenik"></edge>
+      <edge id="251" source="robert c miller" target="christopher oezbek"></edge>
+      <edge id="252" source="robert c miller" target="julia schenk"></edge>
+      <edge id="253" source="robert c miller" target="james a jones"></edge>
+      <edge id="254" source="robert c miller" target="rajesh hegde"></edge>
+      <edge id="255" source="robert c miller" target="puneet agarwal"></edge>
+      <edge id="256" source="robert c miller" target="francisco servant"></edge>
+      <edge id="257" source="robert c miller" target="prasun dewan"></edge>
+      <edge id="258" source="robert c miller" target="gautam shroff"></edge>
+      <edge id="259" source="robert c miller" target="andre van der hoek"></edge>
+      <edge id="260" source="robert c miller" target="karl beecher"></edge>
+      <edge id="261" source="robert feldt" target="per lenberg" weight="2.0"></edge>
+      <edge id="262" source="robert feldt" target="anne philpott"></edge>
+      <edge id="263" source="robert feldt" target="lars goran wallgren" weight="2.0"></edge>
+      <edge id="264" source="robert feldt" target="maria samuelsson"></edge>
+      <edge id="265" source="robert feldt" target="lefteris angelis"></edge>
+      <edge id="266" source="robert feldt" target="richard torkar"></edge>
+      <edge id="267" source="robert j walker" target="brian de alwis"></edge>
+      <edge id="268" source="robert j walker" target="jonathan sillito"></edge>
+      <edge id="269" source="robert merkel" target="mary jean harrold"></edge>
+      <edge id="270" source="robert merkel" target="hina shah"></edge>
+      <edge id="271" source="roberto oliveira" target="leonardo sousa"></edge>
+      <edge id="272" source="roberto oliveira" target="alessandro garcia"></edge>
+      <edge id="273" source="roberto oliveira" target="rafael m de mello"></edge>
+      <edge id="274" source="rosalba giuffrida" target="robert deline"></edge>
+      <edge id="275" source="sai datta vishnubhotla" target="anne philpott"></edge>
+      <edge id="276" source="sanjay podder" target="rohit mehra"></edge>
+      <edge id="277" source="satiyo shiizaki" target="barbara paech"></edge>
+      <edge id="278" source="satiyo shiizaki" target="fabio q b da silva"></edge>
+      <edge id="279" source="satiyo shiizaki" target="chihiro uchida"></edge>
+      <edge id="280" source="satiyo shiizaki" target="kiyoshi honda"></edge>
+      <edge id="281" source="satiyo shiizaki" target="masashi nakagawa"></edge>
+      <edge id="282" source="satiyo shiizaki" target="kentaro ogawa"></edge>
+      <edge id="283" source="satiyo shiizaki" target="francisco j s vasconcellos"></edge>
+      <edge id="284" source="satiyo shiizaki" target="hermano perrelli de moura"></edge>
+      <edge id="285" source="satiyo shiizaki" target="hironori washizaki"></edge>
+      <edge id="286" source="satiyo shiizaki" target="jose adson o g cunha"></edge>
+      <edge id="287" source="satiyo shiizaki" target="mikako ishigaki"></edge>
+      <edge id="288" source="saya onoue" target="marco aurelio gerosa" weight="2.0"></edge>
+      <edge id="289" source="saya onoue" target="igor scaliante wiese" weight="2.0"></edge>
+      <edge id="290" source="saya onoue" target="david redmiles"></edge>
+      <edge id="291" source="saya onoue" target="ana paula chaves"></edge>
+      <edge id="292" source="saya onoue" target="igor steinmacher" weight="2.0"></edge>
+      <edge id="293" source="sebastian muller" target="gerald bortis"></edge>
+      <edge id="294" source="sebastian muller" target="andre van der hoek"></edge>
+      <edge id="295" source="sebastian muller" target="michael wursch"></edge>
+      <edge id="296" source="sebastian muller" target="harald c gall"></edge>
+      <edge id="297" source="shaun phillips" target="brian de alwis"></edge>
+      <edge id="298" source="shaun phillips" target="jonathan sillito"></edge>
+      <edge id="299" source="sherlock a licorish" target="anne philpott"></edge>
+      <edge id="300" source="shreya kumar" target="francisco j s vasconcellos"></edge>
+      <edge id="301" source="shreya kumar" target="alberto bacchelli"></edge>
+      <edge id="302" source="shreya kumar" target="lars goran wallgren"></edge>
+      <edge id="303" source="shreya kumar" target="per lenberg"></edge>
+      <edge id="304" source="shreya kumar" target="igor scaliante wiese"></edge>
+      <edge id="305" source="shreya kumar" target="marco aurelio gerosa"></edge>
+      <edge id="306" source="shreya kumar" target="gleison dos santos souza"></edge>
+      <edge id="307" source="shreya kumar" target="charles wallace" weight="2.0"></edge>
+      <edge id="308" source="shreya kumar" target="david redmiles"></edge>
+      <edge id="309" source="shreya kumar" target="jacilane rabelo"></edge>
+      <edge id="310" source="shreya kumar" target="robert feldt"></edge>
+      <edge id="311" source="shreya kumar" target="jose adson o g cunha"></edge>
+      <edge id="312" source="shreya kumar" target="fabio q b da silva"></edge>
+      <edge id="313" source="shreya kumar" target="davi viana dos santos"></edge>
+      <edge id="314" source="shreya kumar" target="hermano perrelli de moura"></edge>
+      <edge id="315" source="shreya kumar" target="igor steinmacher" weight="2.0"></edge>
+      <edge id="316" source="shreya kumar" target="luis carlos da silva braga"></edge>
+      <edge id="317" source="shreya kumar" target="edson oliveira"></edge>
+      <edge id="318" source="sofia sherman" target="irit hadar" weight="2.0"></edge>
+      <edge id="319" source="soroush ghorashi" target="david redmiles"></edge>
+      <edge id="320" source="soroush ghorashi" target="andre van der hoek"></edge>
+      <edge id="321" source="soroush ghorashi" target="roger m ripley"></edge>
+      <edge id="322" source="soroush ghorashi" target="ban alani"></edge>
+      <edge id="323" source="soroush ghorashi" target="anita sarma"></edge>
+      <edge id="324" source="soroush ghorashi" target="erik trainer"></edge>
+      <edge id="325" source="srinivas padmanabhuni" target="lucas layman"></edge>
+      <edge id="326" source="srinivas padmanabhuni" target="nachiappan nagappan"></edge>
+      <edge id="327" source="srinivas padmanabhuni" target="christopher poile"></edge>
+      <edge id="328" source="srinivas padmanabhuni" target="andrew begel"></edge>
+      <edge id="329" source="stephan salinger" target="puneet agarwal"></edge>
+      <edge id="330" source="stephan salinger" target="prasun dewan"></edge>
+      <edge id="331" source="stephan salinger" target="gautam shroff"></edge>
+      <edge id="332" source="stephan salinger" target="rajesh hegde"></edge>
+      <edge id="333" source="stephen forshaw" target="robert feldt"></edge>
+      <edge id="334" source="stephen forshaw" target="per lenberg"></edge>
+      <edge id="335" source="stephen g macdonell" target="anne philpott"></edge>
+      <edge id="336" source="stephen g macdonell" target="sherlock a licorish" weight="2.0"></edge>
+      <edge id="337" source="taiki todo" target="david redmiles"></edge>
+      <edge id="338" source="taiki todo" target="ana paula chaves"></edge>
+      <edge id="339" source="taiki todo" target="igor scaliante wiese" weight="2.0"></edge>
+      <edge id="340" source="taiki todo" target="igor steinmacher" weight="2.0"></edge>
+      <edge id="341" source="taiki todo" target="marco aurelio gerosa" weight="2.0"></edge>
+      <edge id="342" source="tanjila kanij" target="hina shah"></edge>
+      <edge id="343" source="tanjila kanij" target="mary jean harrold"></edge>
+      <edge id="344" source="tayana conte" target="linda svedberg"></edge>
+      <edge id="345" source="tayana conte" target="anita sarma"></edge>
+      <edge id="346" source="tayana conte" target="marco aurelio gerosa"></edge>
+      <edge id="347" source="tayana conte" target="igor steinmacher"></edge>
+      <edge id="348" source="tayana conte" target="meira levy"></edge>
+      <edge id="349" source="tayana conte" target="lars goran wallgren"></edge>
+      <edge id="350" source="tayana conte" target="igor scaliante wiese"></edge>
+      <edge id="351" source="tayana conte" target="orit hazzan"></edge>
+      <edge id="352" source="tayana conte" target="per lenberg"></edge>
+      <edge id="353" source="tayana conte" target="baldvin gislason bern"></edge>
+      <edge id="354" source="tayana conte" target="jianguo wang"></edge>
+      <edge id="355" source="tayana conte" target="robert feldt"></edge>
+      <edge id="356" source="tayana conte" target="elizabeth bjarnason"></edge>
+      <edge id="357" source="tayana conte" target="ana paula chaves"></edge>
+      <edge id="358" source="teppei yamaguchi" target="mikako ishigaki"></edge>
+      <edge id="359" source="teppei yamaguchi" target="masashi nakagawa"></edge>
+      <edge id="360" source="teppei yamaguchi" target="chihiro uchida"></edge>
+      <edge id="361" source="teppei yamaguchi" target="francisco j s vasconcellos"></edge>
+      <edge id="362" source="teppei yamaguchi" target="kiyoshi honda"></edge>
+      <edge id="363" source="teppei yamaguchi" target="jose adson o g cunha"></edge>
+      <edge id="364" source="teppei yamaguchi" target="kentaro ogawa"></edge>
+      <edge id="365" source="teppei yamaguchi" target="hironori washizaki"></edge>
+      <edge id="366" source="teppei yamaguchi" target="barbara paech"></edge>
+      <edge id="367" source="teppei yamaguchi" target="hermano perrelli de moura"></edge>
+      <edge id="368" source="teppei yamaguchi" target="fabio q b da silva"></edge>
+      <edge id="369" source="thomas d latoza" target="max goldman"></edge>
+      <edge id="370" source="thomas d latoza" target="greg little"></edge>
+      <edge id="371" source="thomas d latoza" target="robert c miller"></edge>
+      <edge id="372" source="thomas fritz" target="gerald bortis"></edge>
+      <edge id="373" source="thomas fritz" target="sebastian muller"></edge>
+      <edge id="374" source="thomas fritz" target="michael wursch"></edge>
+      <edge id="375" source="thomas fritz" target="andre van der hoek"></edge>
+      <edge id="376" source="thomas fritz" target="harald c gall"></edge>
+      <edge id="377" source="thomas zimmermann" target="emerson murphyhill"></edge>
+      <edge id="378" source="thomas zimmermann" target="christian bird"></edge>
+      <edge id="379" source="thomas zimmermann" target="tanjila kanij"></edge>
+      <edge id="380" source="thomas zimmermann" target="mario luis guimaraes"></edge>
+      <edge id="381" source="thomas zimmermann" target="antonio ritosilva"></edge>
+      <edge id="382" source="thomas zimmermann" target="john grundy"></edge>
+      <edge id="383" source="thomas zimmermann" target="robert loftin"></edge>
+      <edge id="384" source="thomas zimmermann" target="robert merkel"></edge>
+      <edge id="385" source="thomas zimmermann" target="edward k smith"></edge>
+      <edge id="386" source="tomoaki yagi" target="jose adson o g cunha"></edge>
+      <edge id="387" source="tomoaki yagi" target="hironori washizaki"></edge>
+      <edge id="388" source="tomoaki yagi" target="fabio q b da silva"></edge>
+      <edge id="389" source="tomoaki yagi" target="hermano perrelli de moura"></edge>
+      <edge id="390" source="tomoaki yagi" target="francisco j s vasconcellos"></edge>
+      <edge id="391" source="tomoaki yagi" target="barbara paech"></edge>
+      <edge id="392" source="tomoaki yagi" target="chihiro uchida"></edge>
+      <edge id="393" source="tomoaki yagi" target="masashi nakagawa"></edge>
+      <edge id="394" source="tomoaki yagi" target="kentaro ogawa"></edge>
+      <edge id="395" source="tomoaki yagi" target="mikako ishigaki"></edge>
+      <edge id="396" source="tomoaki yagi" target="kiyoshi honda"></edge>
+      <edge id="397" source="torgeir dingsoyr" target="nachiappan nagappan"></edge>
+      <edge id="398" source="torgeir dingsoyr" target="christopher poile"></edge>
+      <edge id="399" source="torgeir dingsoyr" target="lucas layman"></edge>
+      <edge id="400" source="torgeir dingsoyr" target="andrew begel"></edge>
+      <edge id="401" source="ulrike abelein" target="barbara paech" weight="2.0"></edge>
+      <edge id="402" source="vibhu saujanya sharma" target="rohit mehra"></edge>
+      <edge id="403" source="victor l de oliveira" target="torgeir dingsoyr"></edge>
+      <edge id="404" source="victor l de oliveira" target="tore dyba"></edge>
+      <edge id="405" source="victoria shipp" target="jacob o wobbrock"></edge>
+      <edge id="406" source="victoria shipp" target="parmit k chilana"></edge>
+      <edge id="407" source="victoria shipp" target="andrew j ko"></edge>
+      <edge id="408" source="vikrant kaulgud" target="rohit mehra"></edge>
+      <edge id="409" source="vikrant kaulgud" target="vibhu saujanya sharma"></edge>
+      <edge id="410" source="vladimir kovalenko" target="igor steinmacher"></edge>
+      <edge id="411" source="vladimir kovalenko" target="david redmiles"></edge>
+      <edge id="412" source="vladimir kovalenko" target="igor scaliante wiese"></edge>
+      <edge id="413" source="vladimir kovalenko" target="marco aurelio gerosa"></edge>
+      <edge id="414" source="vladimir kovalenko" target="tayana conte"></edge>
+      <edge id="415" source="w ben towne" target="greg little"></edge>
+      <edge id="416" source="w ben towne" target="robert c miller"></edge>
+      <edge id="417" source="w ben towne" target="max goldman"></edge>
+      <edge id="418" source="xiaofeng wang" target="lefteris angelis"></edge>
+      <edge id="419" source="xiaofeng wang" target="richard torkar"></edge>
+      <edge id="420" source="xiaofeng wang" target="robert feldt"></edge>
+      <edge id="421" source="xiaofeng wang" target="maria samuelsson"></edge>
+      <edge id="422" source="yael dubinsky" target="james a jones"></edge>
+      <edge id="423" source="yael dubinsky" target="andrew begel"></edge>
+      <edge id="424" source="yael dubinsky" target="mark grechanik"></edge>
+      <edge id="425" source="yael dubinsky" target="andre van der hoek"></edge>
+      <edge id="426" source="yasuhiro watanabe" target="chihiro uchida"></edge>
+      <edge id="427" source="yasuhiro watanabe" target="masashi nakagawa"></edge>
+      <edge id="428" source="yasuhiro watanabe" target="francisco j s vasconcellos"></edge>
+      <edge id="429" source="yasuhiro watanabe" target="kentaro ogawa"></edge>
+      <edge id="430" source="yasuhiro watanabe" target="hironori washizaki"></edge>
+      <edge id="431" source="yasuhiro watanabe" target="fabio q b da silva"></edge>
+      <edge id="432" source="yasuhiro watanabe" target="kiyoshi honda"></edge>
+      <edge id="433" source="yasuhiro watanabe" target="jose adson o g cunha"></edge>
+      <edge id="434" source="yasuhiro watanabe" target="mikako ishigaki"></edge>
+      <edge id="435" source="yasuhiro watanabe" target="hermano perrelli de moura"></edge>
+      <edge id="436" source="yasuhiro watanabe" target="tomoaki yagi"></edge>
+      <edge id="437" source="yasuhiro watanabe" target="ulrike abelein"></edge>
+      <edge id="438" source="yasuhiro watanabe" target="barbara paech"></edge>
+      <edge id="439" source="yoshiaki fukazawa" target="jose adson o g cunha"></edge>
+      <edge id="440" source="yoshiaki fukazawa" target="ulrike abelein"></edge>
+      <edge id="441" source="yoshiaki fukazawa" target="chihiro uchida"></edge>
+      <edge id="442" source="yoshiaki fukazawa" target="masashi nakagawa"></edge>
+      <edge id="443" source="yoshiaki fukazawa" target="kiyoshi honda"></edge>
+      <edge id="444" source="yoshiaki fukazawa" target="barbara paech"></edge>
+      <edge id="445" source="yoshiaki fukazawa" target="francisco j s vasconcellos"></edge>
+      <edge id="446" source="yoshiaki fukazawa" target="fabio q b da silva"></edge>
+      <edge id="447" source="yoshiaki fukazawa" target="tomoaki yagi"></edge>
+      <edge id="448" source="yoshiaki fukazawa" target="mikako ishigaki"></edge>
+      <edge id="449" source="yoshiaki fukazawa" target="kentaro ogawa"></edge>
+      <edge id="450" source="yoshiaki fukazawa" target="hermano perrelli de moura"></edge>
+      <edge id="451" source="yoshiaki fukazawa" target="hironori washizaki"></edge>
+      <edge id="452" source="yuki noyori" target="ulrike abelein"></edge>
+      <edge id="453" source="yuki noyori" target="barbara paech"></edge>
+      <edge id="454" source="yuki noyori" target="yoshiaki fukazawa"></edge>
+      <edge id="455" source="yuki noyori" target="fabio q b da silva"></edge>
+      <edge id="456" source="yuki noyori" target="kiyoshi honda"></edge>
+      <edge id="457" source="yuki noyori" target="chihiro uchida"></edge>
+      <edge id="458" source="yuki noyori" target="masashi nakagawa"></edge>
+      <edge id="459" source="yuki noyori" target="tomoaki yagi"></edge>
+      <edge id="460" source="yuki noyori" target="hironori washizaki"></edge>
+      <edge id="461" source="yuki noyori" target="jose adson o g cunha"></edge>
+      <edge id="462" source="yuki noyori" target="mikako ishigaki"></edge>
+      <edge id="463" source="yuki noyori" target="hermano perrelli de moura"></edge>
+      <edge id="464" source="yuki noyori" target="francisco j s vasconcellos"></edge>
+      <edge id="465" source="yuki noyori" target="kentaro ogawa"></edge>
+      <edge id="466" source="yvonne dittrich" target="robert deline"></edge>
+    </edges>
+  </graph>
+</gexf>

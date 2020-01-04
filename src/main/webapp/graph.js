@@ -69,28 +69,28 @@ function parseAPDataXML(data, authorName) {
         xmlDoc.async = false;
         xmlDoc.loadXML(txt);
     }
-    
+
     var publicationNum = 1;
     var allPublications = "";
     var pbList = xmlDoc.getElementsByTagName("Author_Publication");
     for (var i = 0, apLength = pbList.length; i < apLength; i++) {
-        var pb = pbList[i].childNodes; 
-        
+        var pb = pbList[i].childNodes;
+
         var xmlAuthorName = "";
         var paperYear = "";
-        var citCount ="";
+        var citCount = "";
         var displayName = "";
         var venueShortName = "";
         var DOI = "";
         var abstract = "";
         var affiliationName = "";
         var allAuthors = "";
-        
+
         for (var j = 0, pbLength = pb.length; j < pbLength; j++) {
             var nodeName = pb[j].nodeName;
             if (pb[j].nodeType !== 1)
                 continue;
-            
+
             if (nodeName === "Paper_Year") {
                 paperYear = pb[j].innerHTML;
                 continue;
@@ -99,79 +99,79 @@ function parseAPDataXML(data, authorName) {
                 citCount = pb[j].innerHTML;
                 continue;
             }
-                
-            if (nodeName === "Display_Name"){
+
+            if (nodeName === "Display_Name") {
                 displayName = pb[j].innerHTML;
-                continue;                
+                continue;
             }
-                
-            if (nodeName === "Venue_Short_Name"){
+
+            if (nodeName === "Venue_Short_Name") {
                 venueShortName = pb[j].innerHTML;
                 continue;
             }
-                
-            if (nodeName === "DOI"){
+
+            if (nodeName === "DOI") {
                 DOI = pb[j].innerHTML;
                 continue;
             }
-                
-            if (nodeName === "Abstract"){
-                abstract = pb[j].innerHTML;  
+
+            if (nodeName === "Abstract") {
+                abstract = pb[j].innerHTML;
                 continue;
             }
-                
-            if (nodeName === "Author_Name"){
-                xmlAuthorName = pb[j].innerHTML;   
+
+            if (nodeName === "Author_Name") {
+                xmlAuthorName = pb[j].innerHTML;
                 continue;
             }
-                 
-            if (nodeName === "Affiliation_Name"){
-                affiliationName = pb[j].innerHTML;  
+
+            if (nodeName === "Affiliation_Name") {
+                affiliationName = pb[j].innerHTML;
                 continue;
             }
-            
-            if (nodeName === "All_Authors"){
-                allAuthors = pb[j].innerHTML;  
+
+            if (nodeName === "All_Authors") {
+                allAuthors = pb[j].innerHTML;
                 continue;
-            }            
-        } 
-        
+            }
+        }
+
         if (xmlAuthorName === authorName) {
-            var thisPublication = 
+            var thisPublication =
                     "Year: " + paperYear + " <br>" +
-                    "Display Name: <b>" + displayName  + "</b> <br>" +
-                    "Authors: " + allAuthors  + " <br>" +
+                    "Display Name: <b>" + displayName + "</b> <br>" +
+                    "Authors: " + allAuthors + " <br>" +
                     "Affiliation: " + affiliationName + " <br>" +
-                    "Venue (short): " + venueShortName  + " <br>" +
-                    "Citations: " + citCount  + " <br>" +
-                    "DOI: " + DOI + " <br>" ;                    
+                    "Venue (short): " + venueShortName + " <br>" +
+                    "Citations: " + citCount + " <br>" +
+                    "DOI: " + DOI + " <br>";
 
             if (allPublications === "") {
                 allPublications = allPublications + "(" + publicationNum + ") <br>" + thisPublication;
             } else {
                 allPublications = allPublications + "<br>(" + publicationNum + ") <br>" + thisPublication;
             }
-            
+
             publicationNum++;
         }
-    }    
-    
+    }
+
     return allPublications;
 }
 
 function getAuthorData(authorName) {
-    var file = "resources/ap_data.xml";
+    var file = "resources/ap_data_chase.xml";
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
     {
-        if(rawFile.readyState === 4)
+        if (rawFile.readyState === 4)
         {
-            if(rawFile.status === 200 || rawFile.status === 0)
+            if (rawFile.status === 200 || rawFile.status === 0)
             {
                 var allText = rawFile.responseText;
                 var publicationText = parseAPDataXML(allText, authorName);
-                
+
                 document.getElementById("details-pane").style.display = 'block';
                 document.getElementById("authors-details-paragraph").innerHTML = publicationText;
             }
@@ -181,57 +181,56 @@ function getAuthorData(authorName) {
 }
 
 function showGraph(networkType) {
-//    var pathToFile = "data/simple.gexf";
-    var pathToFile = "data/simple_2017.gexf";
+    var pathToFile = "data/2019/simple_network_chase_19.gexf";
     graphType = "simple";
-    
+
     if (networkType === "abc") {
-//        pathToFile = "data/abc.gexf";
-        pathToFile = "data/abc_2017.gexf";
+        pathToFile = "data/2019/abc_network_chase_19.gexf";
         graphType = "abc";
     }
-    
+
     if (actualGraph) {
-        sigma.parsers.gexf( 
-            pathToFile,
-            actualGraph,
-            function(s) {
-               initGraphFuncionality(s);
-                s.refresh();
-            }
-        );    
-    } else {    
         sigma.parsers.gexf(
-            pathToFile,
-            {
-                renderer: {
-                    container: 'graph-container',
-                    type: 'canvas'
-                },
-                settings: {
-                    //autoRescale: false,
-                    edgeLabelSize: 'proportional',
-                    minArrowSize: '5',
-                    defaultEdgeType: 'curve',
-                    hoverFontStyle: 'bold',
-                    labelThreshold: 6,
-                    defaultLabelSize: 12
+                pathToFile,
+                actualGraph,
+                function (s) {
+                    initGraphFuncionality(s);
+                    s.refresh();
                 }
-            },
-            function(s) {
-                initGraphFuncionality(s);
-                actualGraph = s;                
-            }
         );
-    }; 
-    
+    } else {
+        sigma.parsers.gexf(
+                pathToFile,
+                {
+                    renderer: {
+                        container: 'graph-container',
+                        type: 'canvas'
+                    },
+                    settings: {
+                        //autoRescale: false,
+                        edgeLabelSize: 'proportional',
+                        minArrowSize: '5',
+                        defaultEdgeType: 'curve',
+                        hoverFontStyle: 'bold',
+                        labelThreshold: 6,
+                        defaultLabelSize: 12
+                    }
+                },
+                function (s) {
+                    initGraphFuncionality(s);
+                    actualGraph = s;
+                }
+        );
+    }
+    ;
+
 //    var degreeHtmlValue = document.getElementById("min-degree").value;
 //    var currentDegree = parseInt(degreeHtmlValue);
 //    
 //    if (currentDegree === 0 && networkType === "abc") {
 //        document.getElementById("min-degree").value = 1;
 //    }
-    
+
     resetHtmlActions();
 }
 
@@ -239,7 +238,7 @@ function resetHtmlActions() {
     var authorNameElement = document.getElementById("authorName");
     var authorDetailsElement = document.getElementById("authors-details-paragraph");
     document.getElementById("reset-author-div").innerHTML = "";
-    
+
     if (authorNameElement !== null) {
         authorNameElement.value = "";
         authorDetailsElement.innerHTML = "";
@@ -248,46 +247,46 @@ function resetHtmlActions() {
 }
 
 function defineSettings(s) {
-    
+
     var defaultLabelSize = 12;
     var labelThreshold = 6;
-    
+
     if (graphType === "abc") {
         defaultLabelSize = 14;
-        
+
         s.graph.edges().forEach(function (e) {
             e.type = e.originalType;
-        });        
-    } 
-    
+        });
+    }
+
     if (graphType === "simple") {
         defaultLabelSize = 12;
-        
+
         s.graph.edges().forEach(function (e) {
             e.type = 'arrow';
         });
-    } 
-    
+    }
+
     s.settings('labelThreshold', labelThreshold);
     s.settings('defaultLabelSize', defaultLabelSize);
 //    s.settings('minArrowSize', 1);
 }
 
-function initGraphFuncionality(s) { 
-    
+function initGraphFuncionality(s) {
+
     //Store original settings
     s.graph.nodes().forEach(function (n) {
         n.originalColor = n.color;
         n.originalSize = n.size;
-               
+
     });
     s.graph.edges().forEach(function (e) {
         e.originalColor = e.color;
         e.originalType = e.type;
-    });    
-    
+    });
+
     defineSettings(s);
-    
+
     filter = new sigma.plugins.filter(s);
     updatePane(s.graph, filter);
 
@@ -312,17 +311,17 @@ function initGraphFuncionality(s) {
         utils.$('min-degree-val').textContent = v;
 
         filter
-            .undo('min-degree')
-            .nodesBy(function (n) {
-                return this.degree(n.id) >= v;
-            }, 'min-degree')
-            .apply();
+                .undo('min-degree')
+                .nodesBy(function (n) {
+                    return this.degree(n.id) >= v;
+                }, 'min-degree')
+                .apply();
     }
-    
+
     function applyThreshold(e) {
         var labelThreshold = e.target.value;
-        s.settings('labelThreshold', labelThreshold);   
-        
+        s.settings('labelThreshold', labelThreshold);
+
         s.refresh();
     }
 
@@ -341,18 +340,18 @@ function initGraphFuncionality(s) {
 
     function highlightNeighbours(event, node) {
         var nodeId = node.id;
-        
+
         var toKeep = s.graph.neighbors(nodeId);
-        
+
         //if (event.type === "clickNode")
-            toKeep[nodeId] = node;
+        toKeep[nodeId] = node;
 
         s.graph.nodes().forEach(function (n) {
             if (toKeep[n.id])
                 n.color = n.originalColor;
             else
                 n.color = '#eee';
-            
+
             if (n.id === nodeId) {
                 n.size = n.size * 2;
                 n.color = "#9400D3";
@@ -364,7 +363,7 @@ function initGraphFuncionality(s) {
                 edges.color = edges.originalColor;
             else
                 edges.color = '#eee';
-        });    
+        });
 
         s.refresh();
     }
@@ -374,14 +373,14 @@ function initGraphFuncionality(s) {
         highlightNeighbours(event, node);
         getAuthorData(node.label);
         document.getElementById("reset-author-div").innerHTML = "";
-        
+
         s.refresh();
     }
 
     function filterByAuthor(event) {
         var inputAuthourName = document.getElementById("authorName").value;
         var inputAuthorNode = getInputAuthorNode(inputAuthourName);
-        
+
         if (typeof inputAuthorNode !== 'undefined') {
             executeHighlight(event, inputAuthorNode);
         } else {
@@ -417,8 +416,8 @@ function initGraphFuncionality(s) {
                     , labels: true
                 });
         console.log(output);
-    }  
-    
+    }
+
     var clickNodeHandler = s._handlers.clickNode;
     if (!clickNodeHandler) {
         s.bind('clickNode', function (clickNodeEvent) {
@@ -428,7 +427,7 @@ function initGraphFuncionality(s) {
             authorNameElement.value = node.label;
 
             executeHighlight(clickNodeEvent, node);
-            
+
             var hostLocation = window.location.hostname;
             if (hostLocation !== "localhost") {
                 var nodeInfo = new Object();
@@ -437,16 +436,16 @@ function initGraphFuncionality(s) {
                 nodeInfo.NodeSize = node.size;
                 nodeInfo.NodeColour = node.color;
                 nodeInfo.GraphType = graphType;
-                appInsights.trackEvent('NodeClick', nodeInfo);                
-            }            
+                appInsights.trackEvent('NodeClick', nodeInfo);
+            }
         });
-        
-        s.bind('clickStage', function(clickStageEvent) {
-           
-           resetAuthorFilter();
-            
-        });          
-        
+
+        s.bind('clickStage', function (clickStageEvent) {
+
+            resetAuthorFilter();
+
+        });
+
 //        s.bind('doubleClickNode', function(dblClickNodeEvent) {
 //           
 //            $.getScript("utils.js", function(){
@@ -458,15 +457,15 @@ function initGraphFuncionality(s) {
 //            processCocitations(authorName);
 //            
 //        });
-        
+
         utils.$('min-degree').addEventListener("input", applyMinDegreeFilter);  // for Chrome and FF
         utils.$('min-degree').addEventListener("change", applyMinDegreeFilter); // for IE10+, that sucks
         utils.$('reset-author-btn').addEventListener("click", resetAuthorFilter);
 //        utils.$('apply-author-btn').addEventListener("click", filterByAuthor);
-        
+
         utils.$('label-threshold-input').addEventListener("input", applyThreshold);  // for Chrome and FF
         utils.$('label-threshold-input').addEventListener("change", applyThreshold); // for IE10+, that sucks
-        
+
         utils.$('export-btn').addEventListener("click", exportGraph);
         utils.$('authorName').addEventListener("input", filterByAuthor);
 //        utils.$('reset-btn').addEventListener("click", function (e) {
@@ -477,8 +476,8 @@ function initGraphFuncionality(s) {
 //            utils.$('dump').textContent = '';
 //            utils.hide('#dump');
 //        });       
-    } 
-    
+    }
+
     s.refresh();
 }
 
@@ -486,8 +485,8 @@ function initGraphFuncionality(s) {
 // object with every neighbors of a node inside:
 sigma.classes.graph.addMethod('neighbors', function (nodeId) {
     var k,
-        neighbors = {},
-        index = this.allNeighborsIndex[nodeId] || {};
+            neighbors = {},
+            index = this.allNeighborsIndex[nodeId] || {};
 
     for (k in index)
         neighbors[k] = this.nodesIndex[k];

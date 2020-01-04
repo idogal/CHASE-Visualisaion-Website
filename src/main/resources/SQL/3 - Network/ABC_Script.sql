@@ -16,7 +16,7 @@ FOR
 		   FROM   Authors_References AS AR WHERE AR.Author_Name = AP.ANAME2
 		   AND    AR.Reference_ID IN 
 	      (SELECT AR.Reference_ID FROM Authors_References AS AR WHERE AR.Author_Name = AP.ANAME1))
-	AND  ANAME2 = 'a cesar c franca' AND ANAME1 = 'jingdong jia'
+	--AND  ANAME2 = 'a cesar c franca' AND ANAME1 = 'jingdong jia';
 
 DECLARE @ANAME1 VARCHAR(100), @ANAME2 VARCHAR(100);
 
